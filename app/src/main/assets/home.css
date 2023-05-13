@@ -1,0 +1,30 @@
+body
+{
+    background-color: #5C2751;
+    padding-top: 25px;
+}
+
+h1
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    background-color: #76E5FC;
+}
+
+h3
+{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+p
+{
+    color:black;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    font-size: 25px;
+}
