@@ -21,6 +21,6 @@ public class SplashScreen extends AppCompatActivity {
                 Intent intent = new Intent(SplashScreen.this, HomeScreen.class);
                 startActivity(intent);
             }//end run method
-        }, 5000);//end post delay
+        }, 1000);//end post delay
     }//end onCreate
 }//end splashScreen
