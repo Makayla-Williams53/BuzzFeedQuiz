@@ -23,6 +23,7 @@
         android:backgroundTint="@color/button"
         android:text="START"
         android:textColor="@color/black"
+        android:onClick="start"
         android:textSize="45dp" />
 
 </LinearLayout>
