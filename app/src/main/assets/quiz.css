@@ -1,0 +1,14 @@
+body
+{
+    background-color: #5C2751;
+    padding-top: 5px;
+}
+
+h1
+{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: #76E5FC;
+}
