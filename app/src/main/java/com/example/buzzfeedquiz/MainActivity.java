@@ -16,7 +16,8 @@ import java.util.Queue;
 
 public class MainActivity extends AppCompatActivity {
 
-    public int answer1;
+    public int answer1 = 0;
+    public int answer2 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,40 +94,47 @@ public class MainActivity extends AppCompatActivity {
         button.setBackgroundColor(Color.parseColor("#4BC0D9"));
         if(button == button1)
         {
-            answer1 = 1;
+            answer2 = 1;
         }//end if
         else if(button == button2)
         {
-            answer1 = 2;
+            answer2 = 2;
         }//end first else if
         else if(button == button3)
         {
-            answer1 = 3;
+            answer2 = 3;
         }//end second else if
         else if(button == button4)
         {
-            answer1 = 4;
+            answer2 = 4;
         }//end third else if
         else if(button == button5)
         {
-            answer1 = 5;
+            answer2 = 5;
         }//end fourth else if
         else if(button == button6)
         {
-            answer1 = 6;
+            answer2 = 6;
         }//end last else if
-    }
+    }//end select2
 
     public void analyze(View v)
     {
         Queue<Integer> answers = new LinkedList<Integer>();
-        if(answer1 == 0)
+        if(answer1 == 0 || answer2 == 0)
         {
             Toast.makeText(this, "Please answer all the questions!", Toast.LENGTH_SHORT).show();
         }//end if
         else
         {
             answers.add(answer1);
+            int temp2 = ((answer2 - 1) + 6) % 6;
+            if(temp2 == 0)
+            {
+                temp2 = 6;
+            }
+            answers.add(temp2);
+            Log.i("info", "Answer2: " + temp2);
         }//end else
     }//end analyze
 

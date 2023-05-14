@@ -160,7 +160,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="emo"
+                        android:text="Emo"
                         android:textColor="@color/black"
                         android:onClick="select2"
                         android:textSize="20dp" />
@@ -203,7 +203,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Hip Hop"
+                        android:text="Skater"
                         android:textColor="@color/black"
                         android:onClick="select2"
                         android:textSize="20dp" />
