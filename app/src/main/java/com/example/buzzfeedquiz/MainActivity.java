@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.TableLayout;
+import android.widget.Toast;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -68,5 +70,20 @@ public class MainActivity extends AppCompatActivity {
         {
             answer1 = 6;
         }//end last else if
+    }//end select1
+
+    public void analyze(View v)
+    {
+        Queue<Integer> answers = new LinkedList<Integer>();
+        if(answer1 == 0)
+        {
+            Toast.makeText(this, "Please answer all the questions!", Toast.LENGTH_SHORT).show();
+        }
+        else
+        {
+            answers.add(answer1);
+            Log.i("info", "Answer1: " + answer1);
+        }
     }
-}
+
+}//end MainActivity

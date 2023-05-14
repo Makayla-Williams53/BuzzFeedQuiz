@@ -90,7 +90,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="R  B"
+                        android:text="R and B"
                         android:textColor="@color/black"
                         android:onClick="select1"
                         android:textSize="20dp" />
