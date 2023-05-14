@@ -78,12 +78,11 @@ public class MainActivity extends AppCompatActivity {
         if(answer1 == 0)
         {
             Toast.makeText(this, "Please answer all the questions!", Toast.LENGTH_SHORT).show();
-        }
+        }//end if
         else
         {
             answers.add(answer1);
-            Log.i("info", "Answer1: " + answer1);
-        }
-    }
+        }//end else
+    }//end analyze
 
 }//end MainActivity
