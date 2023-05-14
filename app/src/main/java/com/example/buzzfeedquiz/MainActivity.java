@@ -178,9 +178,15 @@ public class MainActivity extends AppCompatActivity {
             if(temp2 == 0)
             {
                 temp2 = 6;
-            }
+            }//end if
             answers.add(temp2);
-            Log.i("info", "Answer2: " + temp2);
+            int temp3 = ((answer3 - 2) + 6) % 6;
+            if(temp3 == 0)
+            {
+                temp3 = 6;
+            }//end if
+            answers.add(temp3);
+            Log.i("info", "Answer3: " + temp3);
         }//end else
     }//end analyze
 
