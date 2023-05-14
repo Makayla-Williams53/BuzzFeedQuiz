@@ -517,6 +517,104 @@
                 </TableRow>
             </TableLayout>
 
+            <TextView
+                android:id="@+id/question6View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="Pick a leisurely activity:"
+                android:textColor="@color/white"
+                android:textSize="25dp"/>
+
+            <TableLayout
+                android:id="@+id/q6Table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+                android:layout_weight=".2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q6opt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Writing"
+                        android:textColor="@color/black"
+                        android:onClick="select6"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/q6opt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Reading"
+                        android:textColor="@color/black"
+                        android:onClick="select6"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q6opt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Painting"
+                        android:textColor="@color/black"
+                        android:onClick="select6"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/q6opt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Skating"
+                        android:textColor="@color/black"
+                        android:onClick="select6"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q6opt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Crafting"
+                        android:textColor="@color/black"
+                        android:onClick="select6"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/q6opt6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Gaming"
+                        android:textColor="@color/black"
+                        android:onClick="select6"
+                        android:textSize="20dp" />
+                </TableRow>
+            </TableLayout>
+
         </LinearLayout>
     </ScrollView>
 
