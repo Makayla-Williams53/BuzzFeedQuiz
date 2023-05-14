@@ -72,6 +72,51 @@ public class MainActivity extends AppCompatActivity {
         }//end last else if
     }//end select1
 
+    public void select2(View view)
+    {
+        Button button1 = findViewById(R.id.q2opt1);
+        Button button2 = findViewById(R.id.q2opt2);
+        Button button3 = findViewById(R.id.q2opt3);
+        Button button4 = findViewById(R.id.q2opt4);
+        Button button5 = findViewById(R.id.q2opt5);
+        Button button6 = findViewById(R.id.q2opt6);
+
+        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+
+        int id = view.getId();
+        Button button = findViewById(id);
+        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        if(button == button1)
+        {
+            answer1 = 1;
+        }//end if
+        else if(button == button2)
+        {
+            answer1 = 2;
+        }//end first else if
+        else if(button == button3)
+        {
+            answer1 = 3;
+        }//end second else if
+        else if(button == button4)
+        {
+            answer1 = 4;
+        }//end third else if
+        else if(button == button5)
+        {
+            answer1 = 5;
+        }//end fourth else if
+        else if(button == button6)
+        {
+            answer1 = 6;
+        }//end last else if
+    }
+
     public void analyze(View v)
     {
         Queue<Integer> answers = new LinkedList<Integer>();
