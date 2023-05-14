@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     public int answer5 = 0;
     public int answer6 = 0;
     public int answer7 = 0;
+    public int answer8 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -348,7 +349,52 @@ public class MainActivity extends AppCompatActivity {
         }//end last else if
     }//end select7
 
-    public void analyze(View v)
+    public void select8(View view)
+    {
+        Button button1 = findViewById(R.id.q8opt1);
+        Button button2 = findViewById(R.id.q8opt2);
+        Button button3 = findViewById(R.id.q8opt3);
+        Button button4 = findViewById(R.id.q8opt4);
+        Button button5 = findViewById(R.id.q8opt5);
+        Button button6 = findViewById(R.id.q8opt6);
+
+        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+
+        int id = view.getId();
+        Button button = findViewById(id);
+        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        if(button == button1)
+        {
+            answer8 = 1;
+        }//end if
+        else if(button == button2)
+        {
+            answer8 = 2;
+        }//end first else if
+        else if(button == button3)
+        {
+            answer8 = 3;
+        }//end second else if
+        else if(button == button4)
+        {
+            answer8 = 4;
+        }//end third else if
+        else if(button == button5)
+        {
+            answer8 = 5;
+        }//end fourth else if
+        else if(button == button6)
+        {
+            answer8 = 6;
+        }//end last else if
+    }//end select8
+
+    public void analyze(View view)
     {
         Queue<Integer> answers = new LinkedList<Integer>();
         if(answer1 == 0 || answer2 == 0 || answer3 == 0 || answer4 == 0 || answer5 == 0 || answer6 == 0 || answer7 == 0)
@@ -389,7 +435,13 @@ public class MainActivity extends AppCompatActivity {
             }
             answers.add(temp6);
             answers.add(answer7);
-            Log.i("info", "Answer7: " + answer7);
+            int temp8 = ((answer8 - 5) + 6) % 6;
+            if(temp8 == 0)
+            {
+                temp8 = 6;
+            }
+            answers.add(temp8);
+            Log.i("info", "Answer8: " + temp8);
         }//end else
     }//end analyze
 
