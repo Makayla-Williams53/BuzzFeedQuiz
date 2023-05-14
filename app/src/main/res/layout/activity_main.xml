@@ -615,6 +615,104 @@
                 </TableRow>
             </TableLayout>
 
+            <TextView
+                android:id="@+id/question7View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="What is your favorite color?"
+                android:textColor="@color/white"
+                android:textSize="25dp"/>
+
+            <TableLayout
+                android:id="@+id/qT7able"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+                android:layout_weight=".2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q7opt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Red"
+                        android:textColor="@color/black"
+                        android:onClick="select7"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/q7opt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Orange"
+                        android:textColor="@color/black"
+                        android:onClick="select7"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q7opt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Yellow"
+                        android:textColor="@color/black"
+                        android:onClick="select7"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/q7opt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Green"
+                        android:textColor="@color/black"
+                        android:onClick="select7"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q7opt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Blue"
+                        android:textColor="@color/black"
+                        android:onClick="select7"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/q7opt6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Purple"
+                        android:textColor="@color/black"
+                        android:onClick="select7"
+                        android:textSize="20dp" />
+                </TableRow>
+            </TableLayout>
+
         </LinearLayout>
     </ScrollView>
 
