@@ -40,6 +40,7 @@
                 android:id="@+id/q1Table"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingBottom="10dp"
                 android:layout_weight=".2">
 
                 <TableRow
@@ -137,6 +138,7 @@
                 android:id="@+id/q2Table"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingBottom="10dp"
                 android:layout_weight=".2">
 
                 <TableRow
@@ -234,6 +236,7 @@
                 android:id="@+id/q3Table"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingBottom="10dp"
                 android:layout_weight=".2">
 
                 <TableRow
@@ -314,6 +317,104 @@
                         android:text="Realist"
                         android:textColor="@color/black"
                         android:onClick="select3"
+                        android:textSize="20dp" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/question4View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="What is your favorite day of the week?"
+                android:textColor="@color/white"
+                android:textSize="25dp"/>
+
+            <TableLayout
+                android:id="@+id/q4Table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="25dp"
+                android:layout_weight=".2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q4opt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Tuesday"
+                        android:textColor="@color/black"
+                        android:onClick="select4"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/q4opt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Wednesday"
+                        android:textColor="@color/black"
+                        android:onClick="select4"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q4opt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Friday"
+                        android:textColor="@color/black"
+                        android:onClick="select4"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/q4opt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Monday"
+                        android:textColor="@color/black"
+                        android:onClick="select4"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q4opt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Thursday"
+                        android:textColor="@color/black"
+                        android:onClick="select4"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/q4opt6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="Saturday and Sunday"
+                        android:textColor="@color/black"
+                        android:onClick="select4"
                         android:textSize="20dp" />
                 </TableRow>
             </TableLayout>

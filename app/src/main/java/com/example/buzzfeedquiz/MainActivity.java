@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public int answer1 = 0;
     public int answer2 = 0;
     public int answer3 = 0;
+    public int answer4 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -164,10 +165,55 @@ public class MainActivity extends AppCompatActivity {
         }//end last else if
     }//end select3
 
+    public void select4(View view)
+    {
+        Button button1 = findViewById(R.id.q4opt1);
+        Button button2 = findViewById(R.id.q4opt2);
+        Button button3 = findViewById(R.id.q4opt3);
+        Button button4 = findViewById(R.id.q4opt4);
+        Button button5 = findViewById(R.id.q4opt5);
+        Button button6 = findViewById(R.id.q4opt6);
+
+        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+
+        int id = view.getId();
+        Button button = findViewById(id);
+        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        if(button == button1)
+        {
+            answer4 = 1;
+        }//end if
+        else if(button == button2)
+        {
+            answer4 = 2;
+        }//end first else if
+        else if(button == button3)
+        {
+            answer4 = 3;
+        }//end second else if
+        else if(button == button4)
+        {
+            answer4 = 4;
+        }//end third else if
+        else if(button == button5)
+        {
+            answer4 = 5;
+        }//end fourth else if
+        else if(button == button6)
+        {
+            answer4 = 6;
+        }//end last else if
+    }//end select4
+
     public void analyze(View v)
     {
         Queue<Integer> answers = new LinkedList<Integer>();
-        if(answer1 == 0 || answer2 == 0)
+        if(answer1 == 0 || answer2 == 0 || answer3 == 0 || answer4 == 0)
         {
             Toast.makeText(this, "Please answer all the questions!", Toast.LENGTH_SHORT).show();
         }//end if
@@ -186,7 +232,14 @@ public class MainActivity extends AppCompatActivity {
                 temp3 = 6;
             }//end if
             answers.add(temp3);
-            Log.i("info", "Answer3: " + temp3);
+            int temp4 = ((answer4 - 3) + 6) % 6;
+            if(temp4 == 0)
+            {
+                temp4 = 6;
+            }
+            answers.add(temp4);
+            Log.i("info", "Answer4: " + temp4);
+
         }//end else
     }//end analyze
 
