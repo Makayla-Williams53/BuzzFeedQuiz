@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class HomeScreen extends AppCompatActivity {
 
@@ -54,5 +55,24 @@ public class HomeScreen extends AppCompatActivity {
 
     public void start(View view)
     {
-    }
-}
+        if(selection == 1)
+        {
+            Intent intent = new Intent(HomeScreen.this, ColorQuiz.class);
+            startActivity(intent);
+        }//end if
+        else if(selection == 2)
+        {
+            Intent intent = new Intent(HomeScreen.this, MusicQuiz.class);
+            startActivity(intent);
+        }//end fist else if
+        else if(selection == 3)
+        {
+            Intent intent = new Intent(HomeScreen.this, MovieQuiz.class);
+            startActivity(intent);
+        }//end second else if
+        else
+        {
+            Toast.makeText(this, "Please select a quiz!", Toast.LENGTH_SHORT).show();
+        }//end else
+    }//end start
+}//end HomeScreen
