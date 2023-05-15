@@ -16,7 +16,7 @@
             android:name=".HomeScreen"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ColorQuiz"
             android:exported="false" />
         <activity
             android:name=".SplashScreen"

@@ -20,7 +20,7 @@ public class HomeScreen extends AppCompatActivity {
 
     public void start(View view)
     {
-        Intent intent = new Intent(HomeScreen.this, MainActivity.class);
+        Intent intent = new Intent(HomeScreen.this, ColorQuiz.class);
         startActivity(intent);
     }
 }
