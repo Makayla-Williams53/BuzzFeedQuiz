@@ -501,7 +501,7 @@ public class ColorQuiz extends AppCompatActivity {
         }//end outer else
 
         Intent intent = new Intent(ColorQuiz.this, ColorResults.class);
-        //intent.putExtra("results", results(answers));
+        intent.putExtra("results", results(answers));
         startActivity(intent);
 
     }//end analyze
