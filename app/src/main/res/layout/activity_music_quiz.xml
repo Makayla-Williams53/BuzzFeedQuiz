@@ -30,7 +30,7 @@
             <TextView
                 android:id="@+id/question1View"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight=".2"
                 android:text="What type of music do you listen to?"
                 android:textColor="@color/white"
