@@ -2,7 +2,9 @@ package com.example.buzzfeedquiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
 
@@ -48,5 +50,11 @@ public class ColorResults extends AppCompatActivity
             resultView.setText("Your Personality is: Purple!!!");
         }//end fifth else if
     }//end onCreate
+
+    public void retake(View view)
+    {
+        Intent intent = new Intent(ColorResults.this, HomeScreen.class);
+        startActivity(intent);
+    }//end retake
 
 }//end colorResults
