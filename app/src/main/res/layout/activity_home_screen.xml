@@ -11,19 +11,53 @@
 
     <WebView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="8"
+        android:layout_height="0dp"
+        android:layout_weight="4"
         android:id="@+id/webview"/>
+
+    <Button
+        android:id="@+id/colorOpt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/button"
+        android:layout_weight="1"
+        android:text="What color is your personality?"
+        android:textColor="@color/black"
+        android:onClick="select"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/musicOpt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/button"
+        android:layout_weight="1"
+        android:text="What music I would play for you?"
+        android:textColor="@color/black"
+        android:onClick="select"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/movieOpt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/button"
+        android:layout_weight="1"
+        android:text="What movie I would play for you?"
+        android:textColor="@color/black"
+        android:onClick="select"
+        android:textSize="22dp" />
 
     <Button
         android:id="@+id/startButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:backgroundTint="@color/button"
+        android:backgroundTint="@color/button2"
         android:text="START"
         android:textColor="@color/black"
         android:onClick="start"
         android:textSize="45dp" />
+
 
 </LinearLayout>
