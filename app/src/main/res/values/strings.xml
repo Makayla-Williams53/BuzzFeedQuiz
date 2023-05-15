@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BuzzFeedQuiz</string>
+    <string name="question1">What type of music do you listen to?</string>
+    <string name="punk">Punk Rock</string>
+    <string name="country">Country</string>
+    <string name="pop">Pop</string>
+    <string name="rb">R and B</string>
 </resources>
