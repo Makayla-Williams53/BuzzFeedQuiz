@@ -39,6 +39,17 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = (WebView) findViewById(R.id.titleWeb);
         webView.loadUrl("file:///android_asset/quiz.html");
 
+        Queue<Integer> test = new LinkedList<Integer>();
+        test.add(3);
+        test.add(3);
+        test.add(3);
+        test.add(2);
+        test.add(1);
+        test.add(5);
+        test.add(7);
+        results(test);
+
+
     }
 
     public void select1(View view)
@@ -492,9 +503,71 @@ public class MainActivity extends AppCompatActivity {
             answers.add(final9);
         }//end outer else
 
+        Log.i("info", "Queue: " + answers);
+        results(answers);
 
     }//end analyze
 
+    public void results(Queue<Integer> queue)
+    {
+        int size = queue.size();
+        int most;
+        int count1 = 0;
+        int count2 = 0;
+        int count3 = 0;
+        int count4 = 0;
+        int count5 = 0;
+        int count6 = 0;
+        for(int i = 0; i < size; i++)
+        {
+            if(queue.element() == 1)
+            {
+                count1++;
+            }//end if
+            else if(queue.element() == 2)
+            {
+                count2++;
+            }//end else if
+            else if(queue.element() == 3)
+            {
+                count3++;
+            }//end second else if
+            else if(queue.element() == 4)
+            {
+                count4++;
+            }//end third else if
+            else if(queue.element() == 5)
+            {
+                count5++;
+            }//end forth else if
+            else if(queue.element() == 6)
+            {
+                count6++;
+            }//end fifth else if
 
+            queue.remove();
+        }//end for loop
+
+        LinkedList<Integer> values = new LinkedList<>();
+        values.add(count1);
+        values.add(count2);
+        values.add(count3);
+        values.add(count4);
+        values.add(count5);
+        values.add(count6);
+
+        int max = values.get(0);
+        for(int i = 0; i < values.size(); i++)
+        {
+            if(values.get(i) > max)
+            {
+                max = values.get(i);
+            }//end if
+        }//end for
+
+        most = values.indexOf(max) + 1;
+
+        Log.i("info", "Most common answer: " + most);
+    }//end results
 
 }//end MainActivity
