@@ -7,12 +7,18 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.TableLayout;
 import android.widget.Toast;
 
+import com.google.android.material.textfield.TextInputEditText;
+
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         WebView webView = (WebView) findViewById(R.id.titleWeb);
         webView.loadUrl("file:///android_asset/quiz.html");
+
     }
 
     public void select1(View view)
@@ -441,8 +448,25 @@ public class MainActivity extends AppCompatActivity {
                 temp8 = 6;
             }
             answers.add(temp8);
-            Log.i("info", "Answer8: " + temp8);
         }//end else
+
+        TextInputEditText input9 = findViewById(R.id.q9input);
+        String tempNum = String.valueOf(input9.getEditableText());
+
+        Pattern testCase = Pattern.compile("[0-9]");
+        Matcher numMatcher = testCase.matcher(tempNum + "");
+        boolean numFound = numMatcher.find();
+
+        if(!numFound)
+        {
+            Toast.makeText(this, "Please input only numbers into the final question!", Toast.LENGTH_SHORT).show();
+        }
+        else
+        {
+            answers.add(Integer.parseInt(tempNum));
+            Log.i("info", "Answer9: " + Integer.parseInt(tempNum));
+        }
+
     }//end analyze
 
 }//end MainActivity

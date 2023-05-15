@@ -796,7 +796,7 @@
                         android:text="I don't watch movies"
                         android:textColor="@color/black"
                         android:onClick="select8"
-                        android:textSize="15dp" />
+                        android:textSize="18dp" />
 
                     <Button
                         android:id="@+id/q8opt6"
@@ -811,6 +811,33 @@
                 </TableRow>
             </TableLayout>
 
+            <TextView
+                android:id="@+id/question9View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="What is your favorite number?"
+                android:textColor="@color/white"
+                android:textSize="25dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".2">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/q9input"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".2"
+                    android:hint="1"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
         </LinearLayout>
     </ScrollView>
 
@@ -824,5 +851,7 @@
         android:textColor="@color/black"
         android:onClick="analyze"
         android:textSize="25dp" />
+
+
 
 </LinearLayout>
