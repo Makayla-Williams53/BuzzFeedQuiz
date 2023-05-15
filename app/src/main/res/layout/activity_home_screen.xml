@@ -23,7 +23,7 @@
         android:layout_weight="1"
         android:text="What color is your personality?"
         android:textColor="@color/black"
-        android:onClick="start"
+        android:onClick="select"
         android:textSize="22dp" />
 
     <Button
@@ -34,19 +34,19 @@
         android:layout_weight="1"
         android:text="What music I would play for you?"
         android:textColor="@color/black"
-        android:onClick="start"
+        android:onClick="select"
         android:textSize="22dp" />
 
     <Button
-        android:id="@+id/thirdOpt"
+        android:id="@+id/movieOpt"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:backgroundTint="@color/button"
         android:layout_weight="1"
-        android:text="Quiz 3"
+        android:text="What movie I would play for you?"
         android:textColor="@color/black"
-        android:onClick="start"
-        android:textSize="25dp" />
+        android:onClick="select"
+        android:textSize="22dp" />
 
     <Button
         android:id="@+id/startButton"
