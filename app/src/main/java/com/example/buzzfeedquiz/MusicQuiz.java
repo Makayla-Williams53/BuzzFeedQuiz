@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
+import android.widget.Toast;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class MusicQuiz extends AppCompatActivity
 {
@@ -66,4 +70,17 @@ public class MusicQuiz extends AppCompatActivity
             answer1 = 6;
         }//end last else if
     }//end select1
+
+    public void analyze(View view)
+    {
+        Queue<Integer> answers = new LinkedList<Integer>();
+        if(answer1 == 0)
+        {
+            Toast.makeText(this, "Please answer all the questions!", Toast.LENGTH_SHORT).show();
+        }//end if
+        else
+        {
+            answers.add(answer1);
+        }//end else
+    }//end analyze
 }//end MusicQuiz
