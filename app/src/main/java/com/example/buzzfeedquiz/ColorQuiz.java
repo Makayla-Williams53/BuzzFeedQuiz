@@ -2,15 +2,13 @@ package com.example.buzzfeedquiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
-import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.Button;
-import android.widget.TableLayout;
 import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
@@ -20,7 +18,7 @@ import java.util.Queue;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class MainActivity extends AppCompatActivity {
+public class ColorQuiz extends AppCompatActivity {
 
     public int answer1 = 0;
     public int answer2 = 0;
@@ -503,12 +501,13 @@ public class MainActivity extends AppCompatActivity {
             answers.add(final9);
         }//end outer else
 
-        Log.i("info", "Queue: " + answers);
-        results(answers);
+        Intent intent = new Intent(ColorQuiz.this, ColorResults.class);
+        intent.putExtra("results", results(answers));
+        startActivity(intent);
 
     }//end analyze
 
-    public void results(Queue<Integer> queue)
+    public int results(Queue<Integer> queue)
     {
         int size = queue.size();
         int most;
@@ -566,8 +565,7 @@ public class MainActivity extends AppCompatActivity {
         }//end for
 
         most = values.indexOf(max) + 1;
-
-        Log.i("info", "Most common answer: " + most);
+        return most;
     }//end results
 
 }//end MainActivity

@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
-import android.widget.Toast;
 
 public class HomeScreen extends AppCompatActivity {
 
@@ -21,7 +20,7 @@ public class HomeScreen extends AppCompatActivity {
 
     public void start(View view)
     {
-        Intent intent = new Intent(HomeScreen.this, MainActivity.class);
+        Intent intent = new Intent(HomeScreen.this, ColorQuiz.class);
         startActivity(intent);
     }
 }
