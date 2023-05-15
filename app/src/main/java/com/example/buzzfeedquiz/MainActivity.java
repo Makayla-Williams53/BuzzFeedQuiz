@@ -460,13 +460,41 @@ public class MainActivity extends AppCompatActivity {
         if(!numFound)
         {
             Toast.makeText(this, "Please input only numbers into the final question!", Toast.LENGTH_SHORT).show();
-        }
+        }//end if
         else
         {
-            answers.add(Integer.parseInt(tempNum));
-            Log.i("info", "Answer9: " + Integer.parseInt(tempNum));
-        }
+            int final9 = 0;
+            int answer9 = Integer.parseInt(tempNum);
+            if(answer9 == 0)
+            {
+                final9 = 1;
+            }//end if
+            else if(answer9 >= 1 && answer9 <= 6)
+            {
+                final9 = 2;
+            }//end first else if
+            else if(answer9 == 7)
+            {
+                final9 = 3;
+            }//end second else if
+            else if(answer9 >= 8 && answer9<= 12)
+            {
+                final9 = 4;
+            }//end third else if
+            else if(answer9 == 13)
+            {
+                final9 = 6;
+            }//end fourth else if
+            else
+            {
+                final9 = 5;
+            }//end inner else
+            answers.add(final9);
+        }//end outer else
+
 
     }//end analyze
+
+
 
 }//end MainActivity
