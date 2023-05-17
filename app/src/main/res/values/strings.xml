@@ -1,3 +1,70 @@
 <resources>
     <string name="app_name">BuzzFeedQuiz</string>
+    <string name="question1">What type of music do you listen to?</string>
+    <string name="punk">Punk Rock</string>
+    <string name="country">Country</string>
+    <string name="pop">Pop</string>
+    <string name="rb">R and B</string>
+    <string name="hip">Hip Hop</string>
+    <string name="edm">EDM</string>
+
+    <string name="question2">What is your chosen aesthetic?</string>
+    <string name="hippie">70\'s Hippie</string>
+    <string name="emo">Emo</string>
+    <string name="grandpa">Grandpa</string>
+    <string name="cottage">Cottage Core</string>
+    <string name="skater">Skater</string>
+    <string name="little">Little Boy</string>
+
+    <string name="question3">How would your friends describe you?</string>
+    <string name="ideal">Idealist</string>
+    <string name="conspiracy">Conspiracist</string>
+    <string name="pessimist">Pessimist</string>
+    <string name="nihilist">Nihilist</string>
+    <string name="optimist">Optimist</string>
+    <string name="realist">Realist</string>
+
+    <string name="question4">What is your favorite day of the week?</string>
+    <string name="tues">Tuesday</string>
+    <string name="wed">Wednesday</string>
+    <string name="fri">Friday</string>
+    <string name="mon">Monday</string>
+    <string name="thur">Thursday</string>
+    <string name="sat">Saturday and Sunday</string>
+
+    <string name="question5">Pick a place to live:</string>
+    <string name="beach">Beach</string>
+    <string name="forest">Forest</string>
+    <string name="sub">Suburbs</string>
+    <string name="mountains">Mountains</string>
+    <string name="desert">Desert</string>
+
+    <string name="question6">Pick a leisurely activity:</string>
+    <string name="write">Writing</string>
+    <string name="read">Reading</string>
+    <string name="paint">Painting</string>
+    <string name="skate">Skating</string>
+    <string name="craft">Crafting</string>
+    <string name="gaming">Gaming</string>
+
+    <string name="question7">What is your favorite color?</string>
+    <string name="red">Red</string>
+    <string name="orange">Orange</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="purple">Purple</string>
+
+    <string name="question8">What type of movies do you watch?</string>
+    <string name="rom">Rom-com</string>
+    <string name="coming">Coming-of_Age</string>
+    <string name="document">Documentaries</string>
+    <string name="animated">Animated</string>
+    <string name="not">I don\'t watch movies</string>
+    <string name="horror">Horror</string>
+
+    <string name="question9">What is your favorite number?</string>
+    <string name="hint">1</string>
+
+    <string name="analyze">Analyze</string>
 </resources>

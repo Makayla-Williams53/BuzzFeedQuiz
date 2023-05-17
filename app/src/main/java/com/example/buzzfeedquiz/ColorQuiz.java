@@ -35,18 +35,6 @@ public class ColorQuiz extends AppCompatActivity {
 
         WebView webView = (WebView) findViewById(R.id.titleWeb);
         webView.loadUrl("file:///android_asset/quiz.html");
-
-        Queue<Integer> test = new LinkedList<Integer>();
-        test.add(3);
-        test.add(3);
-        test.add(3);
-        test.add(2);
-        test.add(1);
-        test.add(5);
-        test.add(7);
-        results(test);
-
-
     }
 
     public void select1(View view)

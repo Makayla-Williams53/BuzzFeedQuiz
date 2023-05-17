@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/bg"
-    android:paddingBottom="50px"
+    android:paddingBottom="50dp"
     tools:context=".ColorQuiz">
 
     <WebView
@@ -32,9 +31,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
-                android:text="What type of music do you listen to?"
+                android:text="@string/question1"
                 android:textColor="@color/white"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <TableLayout
                 android:id="@+id/q1Table"
@@ -49,25 +48,27 @@
 
                     <Button
                         android:id="@+id/q1opt1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Punk Rock"
+                        android:text="@string/punk"
                         android:textColor="@color/black"
                         android:onClick="select1"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
 
                     <Button
                         android:id="@+id/q1opt2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Country"
+                        android:text="@string/country"
                         android:textColor="@color/black"
                         android:onClick="select1"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
                 </TableRow>
 
                 <TableRow
@@ -76,25 +77,27 @@
 
                     <Button
                         android:id="@+id/q1opt3"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Pop"
+                        android:text="@string/pop"
                         android:textColor="@color/black"
                         android:onClick="select1"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
 
                     <Button
                         android:id="@+id/q1opt4"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="R and B"
+                        android:text="@string/rb"
                         android:textColor="@color/black"
                         android:onClick="select1"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
                 </TableRow>
 
                 <TableRow
@@ -103,25 +106,27 @@
 
                     <Button
                         android:id="@+id/q1opt5"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Hip Hop"
+                        android:text="@string/hip"
                         android:textColor="@color/black"
                         android:onClick="select1"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
 
                     <Button
                         android:id="@+id/q1opt6"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="EDM"
+                        android:text="@string/edm"
                         android:textColor="@color/black"
                         android:onClick="select1"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
                 </TableRow>
             </TableLayout>
 
@@ -130,9 +135,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
-                android:text="What is your chosen aesthetic?"
+                android:text="@string/question2"
                 android:textColor="@color/white"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <TableLayout
                 android:id="@+id/q2Table"
@@ -151,10 +156,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="70's Hippie"
+                        android:text="@string/hippie"
                         android:textColor="@color/black"
                         android:onClick="select2"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
 
                     <Button
                         android:id="@+id/q2opt2"
@@ -162,10 +168,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Emo"
+                        android:text="@string/emo"
                         android:textColor="@color/black"
                         android:onClick="select2"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
                 </TableRow>
 
                 <TableRow
@@ -178,10 +185,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Grandpa"
+                        android:text="@string/grandpa"
                         android:textColor="@color/black"
                         android:onClick="select2"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
 
                     <Button
                         android:id="@+id/q2opt4"
@@ -189,10 +197,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Cottage Core"
+                        android:text="@string/cottage"
                         android:textColor="@color/black"
                         android:onClick="select2"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
                 </TableRow>
 
                 <TableRow
@@ -205,10 +214,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Skater"
+                        android:text="@string/skater"
                         android:textColor="@color/black"
                         android:onClick="select2"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
 
                     <Button
                         android:id="@+id/q2opt6"
@@ -216,10 +226,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Little Boy"
+                        android:text="@string/little"
                         android:textColor="@color/black"
                         android:onClick="select2"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
             </TableLayout>
 
@@ -228,9 +239,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
-                android:text="How would your friends describe you?"
+                android:text="@string/question3"
                 android:textColor="@color/white"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <TableLayout
                 android:id="@+id/q3Table"
@@ -249,10 +260,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Idealist"
+                        android:text="@string/ideal"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q3opt2"
@@ -260,10 +272,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Conspiracist"
+                        android:text="@string/conspiracy"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -276,10 +289,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Pessimist"
+                        android:text="@string/pessimist"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
 
                     <Button
                         android:id="@+id/q3opt4"
@@ -287,10 +301,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Nihilist"
+                        android:text="@string/nihilist"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -303,10 +318,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Optimist"
+                        android:text="@string/optimist"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q3opt6"
@@ -314,10 +330,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Realist"
+                        android:text="@string/realist"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
             </TableLayout>
 
@@ -326,9 +343,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
-                android:text="What is your favorite day of the week?"
+                android:text="@string/question4"
                 android:textColor="@color/white"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <TableLayout
                 android:id="@+id/q4Table"
@@ -347,10 +364,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Tuesday"
+                        android:text="@string/tues"
                         android:textColor="@color/black"
                         android:onClick="select4"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q4opt2"
@@ -358,10 +376,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Wednesday"
+                        android:text="@string/wed"
                         android:textColor="@color/black"
                         android:onClick="select4"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -374,10 +393,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Friday"
+                        android:text="@string/fri"
                         android:textColor="@color/black"
                         android:onClick="select4"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q4opt4"
@@ -385,10 +405,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Monday"
+                        android:text="@string/mon"
                         android:textColor="@color/black"
                         android:onClick="select4"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -401,10 +422,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Thursday"
+                        android:text="@string/thur"
                         android:textColor="@color/black"
                         android:onClick="select4"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q4opt6"
@@ -412,10 +434,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Saturday and Sunday"
+                        android:text="@string/sat"
                         android:textColor="@color/black"
                         android:onClick="select4"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
             </TableLayout>
 
@@ -424,9 +447,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
-                android:text="Pick a place to live:"
+                android:text="@string/question5"
                 android:textColor="@color/white"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <TableLayout
                 android:id="@+id/q5Table"
@@ -445,10 +468,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Beach"
+                        android:text="@string/beach"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q5opt2"
@@ -456,10 +480,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Forest"
+                        android:text="@string/forest"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -472,10 +497,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Suburbs"
+                        android:text="@string/sub"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q5opt4"
@@ -483,10 +509,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Mountains"
+                        android:text="@string/mountains"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -499,10 +526,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Desert"
+                        android:text="@string/desert"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q5opt6"
@@ -510,10 +538,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Country"
+                        android:text="@string/country"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
             </TableLayout>
 
@@ -522,9 +551,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
-                android:text="Pick a leisurely activity:"
+                android:text="@string/question6"
                 android:textColor="@color/white"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <TableLayout
                 android:id="@+id/q6Table"
@@ -543,10 +572,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Writing"
+                        android:text="@string/write"
                         android:textColor="@color/black"
                         android:onClick="select6"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q6opt2"
@@ -554,10 +584,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Reading"
+                        android:text="@string/read"
                         android:textColor="@color/black"
                         android:onClick="select6"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -570,10 +601,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Painting"
+                        android:text="@string/paint"
                         android:textColor="@color/black"
                         android:onClick="select6"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q6opt4"
@@ -581,10 +613,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Skating"
+                        android:text="@string/skate"
                         android:textColor="@color/black"
                         android:onClick="select6"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -597,10 +630,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Crafting"
+                        android:text="@string/craft"
                         android:textColor="@color/black"
                         android:onClick="select6"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q6opt6"
@@ -608,10 +642,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Gaming"
+                        android:text="@string/gaming"
                         android:textColor="@color/black"
                         android:onClick="select6"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
             </TableLayout>
 
@@ -620,9 +655,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
-                android:text="What is your favorite color?"
+                android:text="@string/question7"
                 android:textColor="@color/white"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <TableLayout
                 android:id="@+id/qT7able"
@@ -641,10 +676,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Red"
+                        android:text="@string/red"
                         android:textColor="@color/black"
                         android:onClick="select7"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
 
                     <Button
                         android:id="@+id/q7opt2"
@@ -652,10 +688,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Orange"
+                        android:text="@string/orange"
                         android:textColor="@color/black"
                         android:onClick="select7"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -668,10 +705,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Yellow"
+                        android:text="@string/yellow"
                         android:textColor="@color/black"
                         android:onClick="select7"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q7opt4"
@@ -679,10 +717,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Green"
+                        android:text="@string/green"
                         android:textColor="@color/black"
                         android:onClick="select7"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -695,10 +734,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Blue"
+                        android:text="@string/blue"
                         android:textColor="@color/black"
                         android:onClick="select7"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q7opt6"
@@ -706,10 +746,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Purple"
+                        android:text="@string/purple"
                         android:textColor="@color/black"
                         android:onClick="select7"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
             </TableLayout>
 
@@ -718,9 +759,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
-                android:text="What type of movies do you watch?"
+                android:text="@string/question8"
                 android:textColor="@color/white"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <TableLayout
                 android:id="@+id/q8Table"
@@ -739,10 +780,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Rom-Com"
+                        android:text="@string/rom"
                         android:textColor="@color/black"
                         android:onClick="select8"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q8opt2"
@@ -750,10 +792,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Coming-Of-Age"
+                        android:text="@string/coming"
                         android:textColor="@color/black"
                         android:onClick="select8"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -766,10 +809,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Documentaries"
+                        android:text="@string/document"
                         android:textColor="@color/black"
                         android:onClick="select8"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q8opt4"
@@ -777,10 +821,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Animated"
+                        android:text="@string/animated"
                         android:textColor="@color/black"
                         android:onClick="select8"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
                 <TableRow
@@ -793,10 +838,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="I don't watch movies"
+                        android:text="@string/not"
                         android:textColor="@color/black"
                         android:onClick="select8"
-                        android:textSize="18dp" />
+                        android:textSize="18sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
                         android:id="@+id/q8opt6"
@@ -804,10 +850,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="Horror"
+                        android:text="@string/horror"
                         android:textColor="@color/black"
                         android:onClick="select8"
-                        android:textSize="20dp" />
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
             </TableLayout>
 
@@ -816,9 +863,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
-                android:text="What is your favorite number?"
+                android:text="@string/question9"
                 android:textColor="@color/white"
-                android:textSize="25dp"/>
+                android:textSize="25sp"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -830,7 +877,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight=".2"
-                    android:hint="1"
+                    android:hint="@string/hint"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
                     android:textSize="25sp"
@@ -847,10 +894,10 @@
         android:layout_height="wrap_content"
         android:layout_weight=".1"
         android:backgroundTint="@color/button"
-        android:text="Analyze"
+        android:text="@string/analyze"
         android:textColor="@color/black"
         android:onClick="analyze"
-        android:textSize="25dp" />
+        android:textSize="25sp" />
 
 
 
