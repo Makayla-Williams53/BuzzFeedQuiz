@@ -52,7 +52,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="@string/punk"
+                        android:text="@string/indie"
                         android:textColor="@color/black"
                         android:onClick="select1"
                         android:textSize="20sp"
@@ -64,7 +64,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="@string/country"
+                        android:text="@string/metal"
                         android:textColor="@color/black"
                         android:onClick="select1"
                         android:textSize="20sp"
@@ -81,7 +81,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="@string/pop"
+                        android:text="@string/rb"
                         android:textColor="@color/black"
                         android:onClick="select1"
                         android:textSize="20sp"
@@ -93,7 +93,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="@string/rb"
+                        android:text="@string/edm"
                         android:textColor="@color/black"
                         android:onClick="select1"
                         android:textSize="20sp"
@@ -110,7 +110,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="@string/hip"
+                        android:text="@string/pop"
                         android:textColor="@color/black"
                         android:onClick="select1"
                         android:textSize="20sp"
@@ -122,7 +122,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="@string/edm"
+                        android:text="@string/country"
                         android:textColor="@color/black"
                         android:onClick="select1"
                         android:textSize="20sp"
@@ -130,17 +130,76 @@
                 </TableRow>
             </TableLayout>
 
-            <Button
-                android:id="@+id/button"
+            <TextView
+                android:id="@+id/question2View"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight=".1"
-                android:backgroundTint="@color/button"
-                android:text="@string/analyze"
-                android:textColor="@color/black"
-                android:onClick="analyze"
-                android:textSize="25sp" />
+                android:layout_weight=".2"
+                android:text="@string/question2V2"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:textSize="25sp"/>
+
+            <TableLayout
+                android:id="@+id/q2Table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:layout_weight=".2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q2opt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/yes"
+                        android:textColor="@color/black"
+                        android:onClick="select2"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q2opt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/no"
+                        android:textColor="@color/black"
+                        android:onClick="select2"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
+                </TableRow>
+
+                <Button
+                    android:id="@+id/q2opt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/button"
+                    android:text="@string/only"
+                    android:textColor="@color/black"
+                    android:onClick="select2"
+                    android:textSize="20sp"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            </TableLayout>
 
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:backgroundTint="@color/button"
+        android:text="@string/analyze"
+        android:textColor="@color/black"
+        android:onClick="analyze"
+        android:textSize="25sp" />
 </LinearLayout>

@@ -68,4 +68,11 @@
 
     <string name="analyze">Analyze</string>
 
+    <string name="indie">Indie</string>
+    <string name="metal">Metal</string>
+
+    <string name="question2V2">Do you like to listen to different types of music?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="only">Only if it is good</string>
 </resources>
