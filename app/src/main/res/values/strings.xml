@@ -57,7 +57,7 @@
 
     <string name="question8">What type of movies do you watch?</string>
     <string name="rom">Rom-com</string>
-    <string name="coming">Coming-of_Age</string>
+    <string name="coming">Coming-of-Age</string>
     <string name="document">Documentaries</string>
     <string name="animated">Animated</string>
     <string name="not">I don\'t watch movies</string>
@@ -68,6 +68,7 @@
 
     <string name="analyze">Analyze</string>
 
+
     <string name="indie">Indie</string>
     <string name="metal">Metal</string>
 
@@ -75,4 +76,12 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="only">Only if it is good</string>
+
+    <string name="question3V2">What is your chosen form of dancing?</string>
+    <string name="sway">Swaying</string>
+    <string name="mosh">Moshing</string>
+    <string name="toe">Toe-Tapping</string>
+    <string name="break_dance">Breakdancing</string>
+    <string name="waltz">Waltz</string>
+    <string name="aggressive">Aggressive Hand Movement</string>
 </resources>

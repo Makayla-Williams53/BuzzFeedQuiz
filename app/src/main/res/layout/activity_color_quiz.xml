@@ -437,7 +437,7 @@
                         android:text="@string/sat"
                         android:textColor="@color/black"
                         android:onClick="select4"
-                        android:textSize="20sp"
+                        android:textSize="17sp"
                         style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
             </TableLayout>
