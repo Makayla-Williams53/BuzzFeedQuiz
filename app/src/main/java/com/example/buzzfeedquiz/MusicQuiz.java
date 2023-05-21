@@ -2,6 +2,7 @@ package com.example.buzzfeedquiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -23,6 +24,7 @@ public class MusicQuiz extends AppCompatActivity
     int answer5 = 0;
     int answer6 = 0;
     int answer7 = 0;
+    int answer8 = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -331,10 +333,55 @@ public class MusicQuiz extends AppCompatActivity
         }//end last else if
     }//end select7
 
+    public void select8(View view)
+    {
+        Button button1 = findViewById(R.id.q8opt1);
+        Button button2 = findViewById(R.id.q8opt2);
+        Button button3 = findViewById(R.id.q8opt3);
+        Button button4 = findViewById(R.id.q8opt4);
+        Button button5 = findViewById(R.id.q8opt5);
+        Button button6 = findViewById(R.id.q8opt6);
+
+        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+
+        int id = view.getId();
+        Button button = findViewById(id);
+        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        if(button == button1)
+        {
+            answer8 = 1;
+        }//end if
+        else if(button == button2)
+        {
+            answer8 = 2;
+        }//end first else if
+        else if(button == button3)
+        {
+            answer8 = 3;
+        }//end second else if
+        else if(button == button4)
+        {
+            answer8 = 4;
+        }//end third else if
+        else if(button == button5)
+        {
+            answer8 = 5;
+        }//end fourth else if
+        else if(button == button6)
+        {
+            answer8 = 6;
+        }//end last else if
+    }//end select8
+
     public void analyze(View view)
     {
         Queue<Integer> answers = new LinkedList<>();
-        if(answer1 == 0 || answer2 == 0 || answer3 == 0 || answer4 == 0 || answer5 == 0 || answer6 == 0 || answer7 == 0)
+        if(answer1 == 0 || answer2 == 0 || answer3 == 0 || answer4 == 0 || answer5 == 0 || answer6 == 0 || answer7 == 0 || answer8 == 0)
         {
             Toast.makeText(this, "Please answer all the questions!", Toast.LENGTH_SHORT).show();
         }//end if
@@ -372,7 +419,73 @@ public class MusicQuiz extends AppCompatActivity
                 temp7 = 6;
             }//end if
             answers.add(temp7);
-            Log.i("info", "Answer7: " + temp7);
+            answers.add(answer8);
         }//end else
+
+        Intent intent = new Intent(MusicQuiz.this, MusicResults.class);
+        intent.putExtra("results", results(answers));
+        startActivity(intent);
     }//end analyze
+
+    public int results(Queue<Integer> queue)
+    {
+        int size = queue.size();
+        int most;
+        int count1 = 0;
+        int count2 = 0;
+        int count3 = 0;
+        int count4 = 0;
+        int count5 = 0;
+        int count6 = 0;
+        for(int i = 0; i < size; i++)
+        {
+            if(queue.element() == 1)
+            {
+                count1++;
+            }//end if
+            else if(queue.element() == 2)
+            {
+                count2++;
+            }//end else if
+            else if(queue.element() == 3)
+            {
+                count3++;
+            }//end second else if
+            else if(queue.element() == 4)
+            {
+                count4++;
+            }//end third else if
+            else if(queue.element() == 5)
+            {
+                count5++;
+            }//end forth else if
+            else if(queue.element() == 6)
+            {
+                count6++;
+            }//end fifth else if
+
+            queue.remove();
+        }//end for loop
+
+        LinkedList<Integer> values = new LinkedList<>();
+        values.add(count1);
+        values.add(count2);
+        values.add(count3);
+        values.add(count4);
+        values.add(count5);
+        values.add(count6);
+
+        int max = values.get(0);
+        for(int i = 0; i < values.size(); i++)
+        {
+            if(values.get(i) > max)
+            {
+                max = values.get(i);
+            }//end if
+        }//end for
+
+        most = values.indexOf(max) + 1;
+        return most;
+    }//end results
+
 }//end MusicQuiz
