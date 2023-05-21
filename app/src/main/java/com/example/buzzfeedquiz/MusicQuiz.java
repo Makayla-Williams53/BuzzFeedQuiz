@@ -32,7 +32,7 @@ public class MusicQuiz extends AppCompatActivity
         setContentView(R.layout.activity_music_quiz);
 
         WebView webView = findViewById(R.id.titleWeb);
-        webView.loadUrl("file:///android_asset/quiz.html");
+        webView.loadUrl("file:///android_asset/musicQuiz.html");
     }//end onCreate
 
     public void select1(View view)
@@ -420,11 +420,12 @@ public class MusicQuiz extends AppCompatActivity
             }//end if
             answers.add(temp7);
             answers.add(answer8);
+
+            Intent intent = new Intent(MusicQuiz.this, MusicResults.class);
+            intent.putExtra("results", results(answers));
+            startActivity(intent);
         }//end else
 
-        Intent intent = new Intent(MusicQuiz.this, MusicResults.class);
-        intent.putExtra("results", results(answers));
-        startActivity(intent);
     }//end analyze
 
     public int results(Queue<Integer> queue)
