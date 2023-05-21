@@ -92,4 +92,12 @@
     <string name="two20s">2020\'s</string>
     <string name="two10s">2010\'s</string>
     <string name="nine80s">1980\'s</string>
+
+    <string name="question5V2">What determines if you like a song?</string>
+    <string name ="beat">The Beat</string>
+    <string name="singer">The Singer\'s Voice</string>
+    <string name="vibe">The Song\'s Vibe</string>
+    <string name="lyrics">The Lyrics</string>
+    <string name="guitar">The Guitar</string>
+    <string name="dance">If You Can Dance</string>
 </resources>
