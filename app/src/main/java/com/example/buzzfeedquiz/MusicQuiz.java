@@ -19,13 +19,14 @@ public class MusicQuiz extends AppCompatActivity
     int answer1 = 0;
     int answer2 = 0;
     int answer3 = 0;
+    int answer4 = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_music_quiz);
 
-        WebView webView = (WebView) findViewById(R.id.titleWeb);
+        WebView webView = findViewById(R.id.titleWeb);
         webView.loadUrl("file:///android_asset/quiz.html");
     }//end onCreate
 
@@ -147,10 +148,55 @@ public class MusicQuiz extends AppCompatActivity
         }//end last else if
     }//end select3
 
+    public void select4(View view)
+    {
+        Button button1 = findViewById(R.id.q4opt1);
+        Button button2 = findViewById(R.id.q4opt2);
+        Button button3 = findViewById(R.id.q4opt3);
+        Button button4 = findViewById(R.id.q4opt4);
+        Button button5 = findViewById(R.id.q4opt5);
+        Button button6 = findViewById(R.id.q4opt6);
+
+        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+
+        int id = view.getId();
+        Button button = findViewById(id);
+        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        if(button == button1)
+        {
+            answer4 = 1;
+        }//end if
+        else if(button == button2)
+        {
+            answer4 = 2;
+        }//end first else if
+        else if(button == button3)
+        {
+            answer4 = 3;
+        }//end second else if
+        else if(button == button4)
+        {
+            answer4 = 4;
+        }//end third else if
+        else if(button == button5)
+        {
+            answer4 = 5;
+        }//end fourth else if
+        else if(button == button6)
+        {
+            answer4 = 6;
+        }//end last else if
+    }
+
     public void analyze(View view)
     {
-        Queue<Integer> answers = new LinkedList<Integer>();
-        if(answer1 == 0 || answer2 == 0 || answer3 == 0)
+        Queue<Integer> answers = new LinkedList<>();
+        if(answer1 == 0 || answer2 == 0 || answer3 == 0 || answer4 == 0)
         {
             Toast.makeText(this, "Please answer all the questions!", Toast.LENGTH_SHORT).show();
         }//end if
@@ -164,6 +210,13 @@ public class MusicQuiz extends AppCompatActivity
                 temp3 = 6;
             }//end if
             answers.add(temp3);
+            int temp4 = ((answer4 - 4) + 6) % 6;
+            if(temp4 == 0)
+            {
+                temp4 = 6;
+            }//end if
+            answers.add(temp4);
+            Log.i("info", "Answer4: " + temp4);
         }//end else
     }//end analyze
 }//end MusicQuiz

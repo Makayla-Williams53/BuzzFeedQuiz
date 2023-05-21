@@ -84,4 +84,12 @@
     <string name="break_dance">Breakdancing</string>
     <string name="waltz">Waltz</string>
     <string name="aggressive">Aggressive Hand Movement</string>
+
+    <string name="question4V2">Pick a time period:</string>
+    <string name="nine70s">1970\'s</string>
+    <string name="twos">2000\'s</string>
+    <string name="nine90s">1990\'s</string>
+    <string name="two20s">2020\'s</string>
+    <string name="two10s">2010\'s</string>
+    <string name="nine80s">1980\'s</string>
 </resources>
