@@ -49,8 +49,6 @@ public class HomeScreen extends AppCompatActivity {
         {
             selection = 3;
         }//end second else if
-
-        Log.i("info", "Selection: " + selection);
     }//end select
 
     public void start(View view)

@@ -486,11 +486,12 @@ public class ColorQuiz extends AppCompatActivity {
                 final9 = 5;
             }//end inner else
             answers.add(final9);
+
+            Intent intent = new Intent(ColorQuiz.this, ColorResults.class);
+            intent.putExtra("results", results(answers));
+            startActivity(intent);
         }//end outer else
 
-        Intent intent = new Intent(ColorQuiz.this, ColorResults.class);
-        intent.putExtra("results", results(answers));
-        startActivity(intent);
 
     }//end analyze
 

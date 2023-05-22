@@ -57,7 +57,7 @@
 
     <string name="question8">What type of movies do you watch?</string>
     <string name="rom">Rom-com</string>
-    <string name="coming">Coming-of_Age</string>
+    <string name="coming">Coming-of-Age</string>
     <string name="document">Documentaries</string>
     <string name="animated">Animated</string>
     <string name="not">I don\'t watch movies</string>
@@ -68,4 +68,44 @@
 
     <string name="analyze">Analyze</string>
 
+
+    <string name="indie">Indie</string>
+    <string name="metal">Metal</string>
+
+    <string name="question2V2">Do you like to listen to different types of music?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="only">Only if it is good</string>
+
+    <string name="question3V2">What is your chosen form of dancing?</string>
+    <string name="sway">Swaying</string>
+    <string name="mosh">Moshing</string>
+    <string name="toe">Toe-Tapping</string>
+    <string name="break_dance">Breakdancing</string>
+    <string name="waltz">Waltz</string>
+    <string name="aggressive">Aggressive Hand Movement</string>
+
+    <string name="question4V2">Pick a time period:</string>
+    <string name="nine70s">1970\'s</string>
+    <string name="twos">2000\'s</string>
+    <string name="nine90s">1990\'s</string>
+    <string name="two20s">2020\'s</string>
+    <string name="two10s">2010\'s</string>
+    <string name="nine80s">1980\'s</string>
+
+    <string name="question6V2">What determines if you like a song?</string>
+    <string name="beat">The Beat</string>
+    <string name="singer">The Singer\'s Voice</string>
+    <string name="vibe">The Song\'s Vibe</string>
+    <string name="lyrics">The Lyrics</string>
+    <string name="guitar">The Guitar</string>
+    <string name="dance">If You Can Dance</string>
+
+    <string name="question7V2">When you want to hear new music, where you headed?</string>
+    <string name="festivals">Festivals</string>
+    <string name="raves">Raves</string>
+    <string name="concerts">Concerts</string>
+    <string name="coffee">Coffee Shops</string>
+    <string name="radio">Radio</string>
+    <string name="local">Local Record Store</string>
 </resources>
