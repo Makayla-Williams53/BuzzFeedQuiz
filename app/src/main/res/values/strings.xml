@@ -56,7 +56,7 @@
     <string name="purple">Purple</string>
 
     <string name="question8">What type of movies do you watch?</string>
-    <string name="rom">Rom-com</string>
+    <string name="rom">Rom-Com</string>
     <string name="coming">Coming-of-Age</string>
     <string name="document">Documentaries</string>
     <string name="animated">Animated</string>
@@ -75,8 +75,7 @@
     <string name="question2V2">Do you like to listen to different types of music?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="only">Only if it is good</string>
-
+    <string name="only">Only if it is good</string>8
     <string name="question3V2">What is your chosen form of dancing?</string>
     <string name="sway">Swaying</string>
     <string name="mosh">Moshing</string>
