@@ -5,6 +5,352 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/bg"
+    android:paddingBottom="20dp"
     tools:context=".MovieQuiz">
+
+    <WebView
+        android:id="@+id/titleWeb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="10dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/question1View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/question8"
+                android:textColor="@color/white"
+                android:textSize="25sp"/>
+
+            <TableLayout
+                android:id="@+id/q1Table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:layout_weight=".2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q1opt1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/rom"
+                        android:textColor="@color/black"
+                        android:onClick="select1"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q1opt2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/horror"
+                        android:textColor="@color/black"
+                        android:onClick="select1"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q1opt3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/coming"
+                        android:textColor="@color/black"
+                        android:onClick="select1"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q1opt4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/animated"
+                        android:textColor="@color/black"
+                        android:onClick="select1"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q1opt5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/document"
+                        android:textColor="@color/black"
+                        android:onClick="select1"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q1opt6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/not"
+                        android:textColor="@color/black"
+                        android:onClick="select1"
+                        android:textSize="18sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/question2View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/question2V3"
+                android:textColor="@color/white"
+                android:textSize="25sp"/>
+
+            <TableLayout
+                android:id="@+id/q2Table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:layout_weight=".2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q2opt1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/peanuts"
+                        android:textColor="@color/black"
+                        android:onClick="select2"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q2opt2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/popcorn"
+                        android:textColor="@color/black"
+                        android:onClick="select2"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q2opt3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/gummy"
+                        android:textColor="@color/black"
+                        android:onClick="select2"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q2opt4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/cream"
+                        android:textColor="@color/black"
+                        android:onClick="select2"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q2opt5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/none"
+                        android:textColor="@color/black"
+                        android:onClick="select2"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q2opt6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/chocolate"
+                        android:textColor="@color/black"
+                        android:onClick="select2"
+                        android:textSize="18sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/question3View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:text="@string/question3V3"
+                android:textColor="@color/white"
+                android:textSize="25sp"/>
+
+            <TableLayout
+                android:id="@+id/q3Table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:layout_weight=".2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q3opt1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/make"
+                        android:textColor="@color/black"
+                        android:onClick="select3"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q3opt2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/redbox"
+                        android:textColor="@color/black"
+                        android:onClick="select3"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q3opt3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/netflix"
+                        android:textColor="@color/black"
+                        android:onClick="select3"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q3opt4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/theaters"
+                        android:textColor="@color/black"
+                        android:onClick="select3"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q3opt5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/carpet"
+                        android:textColor="@color/black"
+                        android:onClick="select3"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q3opt6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/opening"
+                        android:textColor="@color/black"
+                        android:onClick="select3"
+                        android:textSize="18sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:backgroundTint="@color/button"
+        android:text="@string/analyze"
+        android:textColor="@color/black"
+        android:onClick="analyze"
+        android:textSize="25sp" />
 
 </LinearLayout>

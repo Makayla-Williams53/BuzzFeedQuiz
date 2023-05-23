@@ -56,7 +56,7 @@
     <string name="purple">Purple</string>
 
     <string name="question8">What type of movies do you watch?</string>
-    <string name="rom">Rom-com</string>
+    <string name="rom">Rom-Com</string>
     <string name="coming">Coming-of-Age</string>
     <string name="document">Documentaries</string>
     <string name="animated">Animated</string>
@@ -75,8 +75,7 @@
     <string name="question2V2">Do you like to listen to different types of music?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
-    <string name="only">Only if it is good</string>
-
+    <string name="only">Only if it is good</string>8
     <string name="question3V2">What is your chosen form of dancing?</string>
     <string name="sway">Swaying</string>
     <string name="mosh">Moshing</string>
@@ -108,4 +107,20 @@
     <string name="coffee">Coffee Shops</string>
     <string name="radio">Radio</string>
     <string name="local">Local Record Store</string>
+
+    <string name="question2V3">Pick a movie snack:</string>
+    <string name="popcorn">Popcorn</string>
+    <string name="gummy">Gummy Bears</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="peanuts">Peanuts</string>
+    <string name="cream">Ice Cream</string>
+    <string name="none">None</string>
+
+    <string name="question3V3">When are you going to watch a movie?</string>
+    <string name="make">Someone Makes Me</string>
+    <string name="carpet">Red Carpet Premier</string>
+    <string name="netflix">When it\'s on Netflix</string>
+    <string name="theaters">In Theaters</string>
+    <string name="redbox">Redbox</string>
+    <string name="opening">Opening Night</string>
 </resources>
