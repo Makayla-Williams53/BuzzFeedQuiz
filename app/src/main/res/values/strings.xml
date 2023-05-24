@@ -155,4 +155,10 @@
     <string name="meryl">Meryl Streep</string>
     <string name="angelina">Angelina Jolie</string>
     <string name="ryan">Ryan Reynolds</string>
+
+    <string name="question8V3">How do you feel about musicals?</string>
+    <string name="hate">HATE</string>
+    <string name="idk">Don\'t Care</string>
+    <string name="love">LOVE</string>
+    <string name="depends">Depends on the Musical</string>
 </resources>

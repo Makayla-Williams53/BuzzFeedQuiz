@@ -22,6 +22,7 @@ public class MovieQuiz extends AppCompatActivity {
     int answer5 = 0;
     int answer6 = 0;
     int answer7 = 0;
+    int answer8 = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -344,12 +345,45 @@ public class MovieQuiz extends AppCompatActivity {
         {
             answer7 = 6;
         }//end last else if
-    }//end select6
+    }//end select7
+
+    public void select8(View view)
+    {
+        Button button1 = findViewById(R.id.q8opt1);
+        Button button2 = findViewById(R.id.q8opt2);
+        Button button3 = findViewById(R.id.q8opt3);
+        Button button4 = findViewById(R.id.q8opt4);
+
+        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
+
+        int id = view.getId();
+        Button button = findViewById(id);
+        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        if(button == button1)
+        {
+            answer8 = 2;
+        }//end if
+        else if(button == button2)
+        {
+            answer8 = 3;
+        }//end first else if
+        else if(button == button3)
+        {
+            answer8 = 5;
+        }//end second else if
+        else if(button == button4)
+        {
+            answer8 = 1;
+        }//end third else if
+    }//end select8
 
     public void analyze(View view)
     {
         Queue<Integer> answers = new LinkedList<>();
-        if(answer1 == 0 || answer2 == 0 || answer3 == 0 || answer4 == 0 || answer5 == 0 || answer6 == 0 || answer7 == 0)
+        if(answer1 == 0 || answer2 == 0 || answer3 == 0 || answer4 == 0 || answer5 == 0 || answer6 == 0 || answer7 == 0 || answer8 == 0)
         {
             Toast.makeText(this, "Please answer all the questions!", Toast.LENGTH_SHORT).show();
         }//end if
@@ -392,7 +426,8 @@ public class MovieQuiz extends AppCompatActivity {
                 temp7 = 6;
             }//end if
             answers.add(temp7);
-            Log.i("info", "Answer7: " + temp7);
+            answers.add(answer8);
+            Log.i("info", "Answer8: " + answer8);
         }//end else
     }//end analyze
 

@@ -70,6 +70,7 @@
                         android:onClick="select1"
                         android:textSize="20sp"
                         style="?android:attr/buttonBarButtonStyle" />
+
                 </TableRow>
 
                 <TableRow
@@ -94,7 +95,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="@string/animated"
+                        android:text="@string/document"
                         android:textColor="@color/black"
                         android:onClick="select1"
                         android:textSize="20sp"
@@ -107,16 +108,15 @@
 
                     <Button
                         android:id="@+id/q1opt5"
+                        style="?android:attr/buttonBarButtonStyle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
-                        android:text="@string/document"
-                        android:textColor="@color/black"
                         android:onClick="select1"
-                        android:textSize="20sp"
-                        style="?android:attr/buttonBarButtonStyle"/>
-
+                        android:text="@string/animated"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
                     <Button
                         android:id="@+id/q1opt6"
                         android:layout_width="0dp"
@@ -128,6 +128,7 @@
                         android:onClick="select1"
                         android:textSize="18sp"
                         style="?android:attr/buttonBarButtonStyle"/>
+
                 </TableRow>
             </TableLayout>
 
@@ -750,6 +751,81 @@
                         android:text="@string/ryan"
                         android:textColor="@color/black"
                         android:onClick="select7"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+            android:id="@+id/question8View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:text="@string/question8V3"
+            android:textColor="@color/white"
+            android:textSize="25sp"/>
+
+            <TableLayout
+                android:id="@+id/q8Table"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="10dp"
+                android:layout_weight=".2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q8opt1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/hate"
+                        android:textColor="@color/black"
+                        android:onClick="select8"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q8opt2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/idk"
+                        android:textColor="@color/black"
+                        android:onClick="select8"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/q8opt3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/love"
+                        android:textColor="@color/black"
+                        android:onClick="select8"
+                        android:textSize="20sp"
+                        style="?android:attr/buttonBarButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/q8opt4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/button"
+                        android:text="@string/depends"
+                        android:textColor="@color/black"
+                        android:onClick="select8"
                         android:textSize="20sp"
                         style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
