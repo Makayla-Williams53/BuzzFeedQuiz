@@ -2,6 +2,7 @@ package com.example.buzzfeedquiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,8 +11,12 @@ import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.material.textfield.TextInputEditText;
+
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MovieQuiz extends AppCompatActivity {
 
@@ -427,8 +432,51 @@ public class MovieQuiz extends AppCompatActivity {
             }//end if
             answers.add(temp7);
             answers.add(answer8);
-            Log.i("info", "Answer8: " + answer8);
-        }//end else
+
+            TextInputEditText input9 = findViewById(R.id.q9input);
+            String tempNum = String.valueOf(input9.getEditableText());
+
+            Pattern testCase = Pattern.compile("[0-9]");
+            Matcher numMatcher = testCase.matcher(tempNum + "");
+            boolean numFound = numMatcher.find();
+
+            if(!numFound)
+            {
+                Toast.makeText(this, "Please input only numbers into the final question!", Toast.LENGTH_SHORT).show();
+            }//end if
+            else
+            {
+                int final9 = 0;
+                int answer9 = Integer.parseInt(tempNum);
+                if(answer9 == 0)
+                {
+                    final9 = 6;
+                }//end if
+                else if(answer9 == 1)
+                {
+                    final9 = 1;
+                }//end first else if
+                else if(answer9 == 2)
+                {
+                    final9 = 5;
+                }//end second else if
+                else if(answer9 >= 3 && answer9<= 5)
+                {
+                    final9 = 2;
+                }//end third else if
+                else if(answer9 >= 6 && answer9 <= 8)
+                {
+                    final9 = 4;
+                }//end fourth else if
+                else
+                {
+                    final9 = 3;
+                }//end inner else
+                answers.add(final9);
+                Log.i("info", "Answer8: " + final9);
+            }//end inner else
+
+        }//end outer else
     }//end analyze
 
 }//end MovieQuiz
