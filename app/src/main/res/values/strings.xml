@@ -147,4 +147,12 @@
     <string name="king">King Kong</string>
     <string name="top">Top Gun</string>
     <string name="coco">Coco</string>
+
+    <string name="question7V3">Who is your favorite actress/actor</string>
+    <string name="george">George Clooney</string>
+    <string name="johnny">Johnny Depp</string>
+    <string name="anne">Anne Hathaway</string>
+    <string name="meryl">Meryl Streep</string>
+    <string name="angelina">Angelina Jolie</string>
+    <string name="ryan">Ryan Reynolds</string>
 </resources>
