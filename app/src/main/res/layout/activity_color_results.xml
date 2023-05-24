@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Description of what the color means. I will add this in later"
+        android:text="Description of what the movie means. I will add this in later"
         android:textColor="@color/white"
         android:textAlignment="center"
         android:textSize="25dp"
