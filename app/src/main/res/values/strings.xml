@@ -139,4 +139,12 @@
     <string name="costume">Costume Premiers</string>
     <string name="learned">Doesn\'t Care</string>
     <string name="forget">Forgets Entire Plot</string>
+
+    <string name="question6V3">Pick a comfort movie:</string>
+    <string name="princess">Princess Diaries</string>
+    <string name="sweet">Sweet Magnolias</string>
+    <string name="avengers">Avengers</string>
+    <string name="king">King Kong</string>
+    <string name="top">Top Gun</string>
+    <string name="coco">Coco</string>
 </resources>
