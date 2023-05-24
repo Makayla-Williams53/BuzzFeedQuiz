@@ -131,4 +131,12 @@
     <string name="harry">Harry Potter</string>
     <string name="star">Star Wars</string>
     <string name="twilight">Twilight</string>
+
+    <string name="question5V3">How committed to movies are you?</string>
+    <string name="house">Owns House Decor</string>
+    <string name="enjoy">Enjoys it</string>
+    <string name="secret">Knows Everything</string>
+    <string name="costume">Costume Premiers</string>
+    <string name="learned">Doesn\'t Care</string>
+    <string name="forget">Forgets Entire Plot</string>
 </resources>
