@@ -264,7 +264,7 @@
                         android:text="@string/make"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20sp"
+                        android:textSize="14sp"
                         style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
@@ -276,7 +276,7 @@
                         android:text="@string/redbox"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         style="?android:attr/buttonBarButtonStyle" />
                 </TableRow>
 
@@ -293,7 +293,7 @@
                         android:text="@string/netflix"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button
@@ -305,7 +305,7 @@
                         android:text="@string/theaters"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         style="?android:attr/buttonBarButtonStyle"/>
                 </TableRow>
 
@@ -322,7 +322,7 @@
                         android:text="@string/carpet"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="20sp"
+                        android:textSize="17sp"
                         style="?android:attr/buttonBarButtonStyle"/>
 
                     <Button

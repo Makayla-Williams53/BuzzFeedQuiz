@@ -117,10 +117,10 @@
     <string name="none">None</string>
 
     <string name="question3V3">When are you going to watch a movie?</string>
-    <string name="make">Someone Makes Me</string>
-    <string name="carpet">Red Carpet Premier</string>
+    <string name="make">When Someone Makes Me</string>
+    <string name="carpet">At Red Carpet Premier</string>
     <string name="netflix">When it\'s on Netflix</string>
-    <string name="theaters">In Theaters</string>
-    <string name="redbox">Redbox</string>
-    <string name="opening">Opening Night</string>
+    <string name="theaters">When it\'s in Theaters</string>
+    <string name="redbox">When it\'s on Redbox</string>
+    <string name="opening">On Opening Night</string>
 </resources>
