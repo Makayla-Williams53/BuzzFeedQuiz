@@ -117,10 +117,50 @@
     <string name="none">None</string>
 
     <string name="question3V3">When are you going to watch a movie?</string>
-    <string name="make">Someone Makes Me</string>
-    <string name="carpet">Red Carpet Premier</string>
+    <string name="make">When Someone Makes Me</string>
+    <string name="carpet">At Red Carpet Premier</string>
     <string name="netflix">When it\'s on Netflix</string>
-    <string name="theaters">In Theaters</string>
-    <string name="redbox">Redbox</string>
-    <string name="opening">Opening Night</string>
+    <string name="theaters">When it\'s in Theaters</string>
+    <string name="redbox">When it\'s on Redbox</string>
+    <string name="opening">On Opening Night</string>
+
+    <string name="question4V3">Pick a famous movie franchise:</string>
+    <string name="dune">Dune</string>
+    <string name="hunger">Hunger Games</string>
+    <string name="rings">Lord of the Rings</string>
+    <string name="harry">Harry Potter</string>
+    <string name="star">Star Wars</string>
+    <string name="twilight">Twilight</string>
+
+    <string name="question5V3">How committed to movies are you?</string>
+    <string name="house">Owns House Decor</string>
+    <string name="enjoy">Enjoys it</string>
+    <string name="secret">Knows Everything</string>
+    <string name="costume">Costume Premiers</string>
+    <string name="learned">Doesn\'t Care</string>
+    <string name="forget">Forgets Entire Plot</string>
+
+    <string name="question6V3">Pick a comfort movie:</string>
+    <string name="princess">Princess Diaries</string>
+    <string name="sweet">Sweet Magnolias</string>
+    <string name="avengers">Avengers</string>
+    <string name="king">King Kong</string>
+    <string name="top">Top Gun</string>
+    <string name="coco">Coco</string>
+
+    <string name="question7V3">Who is your favorite actress/actor</string>
+    <string name="george">George Clooney</string>
+    <string name="johnny">Johnny Depp</string>
+    <string name="anne">Anne Hathaway</string>
+    <string name="meryl">Meryl Streep</string>
+    <string name="angelina">Angelina Jolie</string>
+    <string name="ryan">Ryan Reynolds</string>
+
+    <string name="question8V3">How do you feel about musicals?</string>
+    <string name="hate">HATE</string>
+    <string name="idk">Don\'t Care</string>
+    <string name="love">LOVE</string>
+    <string name="depends">Depends on the Musical</string>
+
+    <string name="question9V3">How many movies do you watch in a week?</string>
 </resources>

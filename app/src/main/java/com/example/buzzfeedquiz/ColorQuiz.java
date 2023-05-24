@@ -444,53 +444,54 @@ public class ColorQuiz extends AppCompatActivity {
                 temp8 = 6;
             }
             answers.add(temp8);
-        }//end else
 
-        TextInputEditText input9 = findViewById(R.id.q9input);
-        String tempNum = String.valueOf(input9.getEditableText());
+            TextInputEditText input9 = findViewById(R.id.q9input);
+            String tempNum = String.valueOf(input9.getEditableText());
 
-        Pattern testCase = Pattern.compile("[0-9]");
-        Matcher numMatcher = testCase.matcher(tempNum + "");
-        boolean numFound = numMatcher.find();
+            Pattern testCase = Pattern.compile("[0-9]");
+            Matcher numMatcher = testCase.matcher(tempNum + "");
+            boolean numFound = numMatcher.find();
 
-        if(!numFound)
-        {
-            Toast.makeText(this, "Please input only numbers into the final question!", Toast.LENGTH_SHORT).show();
-        }//end if
-        else
-        {
-            int final9 = 0;
-            int answer9 = Integer.parseInt(tempNum);
-            if(answer9 == 0)
+            if(!numFound)
             {
-                final9 = 1;
+                Toast.makeText(this, "Please input only numbers into the final question!", Toast.LENGTH_SHORT).show();
             }//end if
-            else if(answer9 >= 1 && answer9 <= 6)
-            {
-                final9 = 2;
-            }//end first else if
-            else if(answer9 == 7)
-            {
-                final9 = 3;
-            }//end second else if
-            else if(answer9 >= 8 && answer9<= 12)
-            {
-                final9 = 4;
-            }//end third else if
-            else if(answer9 == 13)
-            {
-                final9 = 6;
-            }//end fourth else if
             else
             {
-                final9 = 5;
-            }//end inner else
-            answers.add(final9);
+                int final9 = 0;
+                int answer9 = Integer.parseInt(tempNum);
+                if(answer9 == 0)
+                {
+                    final9 = 1;
+                }//end if
+                else if(answer9 >= 1 && answer9 <= 6)
+                {
+                    final9 = 2;
+                }//end first else if
+                else if(answer9 == 7)
+                {
+                    final9 = 3;
+                }//end second else if
+                else if(answer9 >= 8 && answer9<= 12)
+                {
+                    final9 = 4;
+                }//end third else if
+                else if(answer9 == 13)
+                {
+                    final9 = 6;
+                }//end fourth else if
+                else
+                {
+                    final9 = 5;
+                }//end inner else
+                answers.add(final9);
 
-            Intent intent = new Intent(ColorQuiz.this, ColorResults.class);
-            intent.putExtra("results", results(answers));
-            startActivity(intent);
-        }//end outer else
+                Intent intent = new Intent(ColorQuiz.this, ColorResults.class);
+                intent.putExtra("results", results(answers));
+                startActivity(intent);
+            }//end outer else
+        }//end else
+
 
 
     }//end analyze
