@@ -123,4 +123,12 @@
     <string name="theaters">When it\'s in Theaters</string>
     <string name="redbox">When it\'s on Redbox</string>
     <string name="opening">On Opening Night</string>
+
+    <string name="question4V3">Pick a famous movie franchise:</string>
+    <string name="dune">Dune</string>
+    <string name="hunger">Hunger Games</string>
+    <string name="rings">Lord of the Rings</string>
+    <string name="harry">Harry Potter</string>
+    <string name="star">Star Wars</string>
+    <string name="twilight">Twilight</string>
 </resources>
