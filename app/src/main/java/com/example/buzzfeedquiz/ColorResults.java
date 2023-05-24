@@ -24,30 +24,37 @@ public class ColorResults extends AppCompatActivity
         color = extras.getInt("results");
 
         TextView resultView = findViewById(R.id.resultsView);
+        TextView descView = findViewById(R.id.descView);
 
         if(color == 1)
         {
-            resultView.setText("Your Personality is: Red!!!");
+            resultView.setText(R.string.redResults);
+            descView.setText(R.string.redDesc);
         }//end if
         else if(color == 2)
         {
-            resultView.setText("Your Personality is: Orange!!!");
+            resultView.setText(R.string.orangeResults);
+            descView.setText(R.string.orangeDesc);
         }//end first else if
         else if(color == 3)
         {
-            resultView.setText("Your Personality is: Yellow!!!");
+            resultView.setText(R.string.yellowResults);
+            descView.setText(R.string.yellowDesc);
         }//end second else if
         else if(color == 4)
         {
-            resultView.setText("Your Personality is: Green!!!");
+            resultView.setText(R.string.greenResults);
+            descView.setText(R.string.greenDesc);
         }//end third else if
         else if(color == 5)
         {
-            resultView.setText("Your Personality is: Blue!!!");
+            resultView.setText(R.string.blueResults);
+            descView.setText(R.string.blueDesc);
         }//end fourth else if
         else if(color == 6)
         {
-            resultView.setText("Your Personality is: Purple!!!");
+            resultView.setText(R.string.purpleResults);
+            descView.setText(R.string.purpleDesc);
         }//end fifth else if
     }//end onCreate
 
