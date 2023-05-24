@@ -2,7 +2,9 @@ package com.example.buzzfeedquiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
 
@@ -47,4 +49,10 @@ public class MovieResults extends AppCompatActivity {
             resultView.setText("The Movie I'd Play For You is: Perks of Being a Wallflower!!!");
         }//end fifth else if
     }//end onCreate
+
+    public void retake(View view)
+    {
+        Intent intent = new Intent(MovieResults.this, HomeScreen.class);
+        startActivity(intent);
+    }//end retake
 }
