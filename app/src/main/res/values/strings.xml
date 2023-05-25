@@ -165,23 +165,56 @@
     <string name="question9V3">How many movies do you watch in a week?</string>
 
     <string name="redResults">Your Personality is: Red!!!</string>
-    <string name="redDesc">This means that you are an emotionally driven person.</string>
+    <string name="redDesc">This means that you are an emotionally driven person. Who will on most
+    occasions will make decisions with your heart instead of your head.</string>
 
     <string name="orangeResults">Your Personality is: Orange!!!</string>
-    <string name="orangeDesc">This means that you are </string>
+    <string name="orangeDesc">This means that you are a person who is always driven by emotion but
+    also tries to see the good of the situation. You bring joy to people through content easy-going
+    personality.</string>
 
     <string name="yellowResults">Your Personality is: Yellow!!!</string>
-    <string name="yellowDesc">This means that you are </string>
+    <string name="yellowDesc">This means that you an optimistic person who never fails to see the
+    silver lining. You always bring sunshine and joy to the people around you.</string>
 
     <string name="greenResults">Your Personality is: Green!!!</string>
-    <string name="greenDesc">This means that you are </string>
+    <string name="greenDesc">This means that you are a person who values the little things in life.
+    You may not always appear to be a ray of sunshine, but you always appreciate the beauty of life.</string>
 
     <string name="blueResults">Your Personality is: Blue!!!</string>
-    <string name="blueDesc">This means that you are </string>
+    <string name="blueDesc">This means that you are a rather mellow person. Who always just goes
+    with the flow and is calm, cool, and collected.</string>
 
     <string name="purpleResults">Your Personality is: Purple!!!</string>
-    <string name="purpleDesc">This means that you are</string>
+    <string name="purpleDesc">This means that you are a person who on the surface appears bright and
+    bubbly, but in actuality you are just content. Living life as it goes and appreciates it as it is.</string>
 
+    <string name="saintResults">The Music I\'d Play For You is: Saint Motel!!!</string>
+    <string name="saintDesc">The specific song that I would play for you is Sweet Talk. This is
+    because you appreciate indie music, and love music to just vibe.</string>
+
+    <string name="dayResults">The Music I\'d Play For You is: A Day to Remember!!!</string>
+    <string name="dayDesc">The specific song that I would play for you is 2nd Sucks. This is because you
+    appreciate punk music and love music because of the iconic punk rock guitar and head banging drops.</string>
+
+    <string name="aliciaResults">The Music I\'d Play For You is: Alicia Keys!!!</string>
+    <string name="aliciaDesc">The specific song that I would play for you is Diary. This is because you
+    appreciate mellow toe-tapping R and B music, with a beautiful voice singing the deeper meaning
+    lyrics.</string>
+
+    <string name="illiniumResults">The Music I\'d Play For You is: Illinium!!!</string>
+    <string name="illiniumDesc">The specific song that I would play for you is Fragments. This is because
+    you appreciate music for reasons deeper than lyrics, it's all about the instruments and the crazy
+    beat and drops.</string>
+
+    <string name="issacResults">The Music I\'d Play For You is: Issac Dunbar!!!</string>
+    <string name="issacDesc">The specific song that I would play for you is Scorton\'s Creek. This is
+    because you like listening to different types of music that just makes you feel something.</string>
+
+    <string name="fridayResults">The Music I\'d Play For You is: Friday Pilots Club!!!</string>
+    <string name="fridayDesc">The specific song that I would play for you is The End of It. This is
+    because you appreciate pop music that is absolutely danceable. Music brings you joy and you just
+    want to dance and bop.</string>
 
     <string name="feetResults">The Movie I\'d Play For You is: 5 Feet Apart!!!</string>
     <string name="feetDesc">This means that you </string>

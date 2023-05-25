@@ -24,30 +24,37 @@ public class MusicResults extends AppCompatActivity {
         music = extras.getInt("results");
 
         TextView resultView = findViewById(R.id.resultsView);
+        TextView descView = findViewById(R.id.descView);
 
         if(music == 1)
         {
-            resultView.setText("The Music I'd Play For You is: Saint Motel!!!");
+            resultView.setText(R.string.saintResults);
+            descView.setText(R.string.saintDesc);
         }//end if
         else if(music == 2)
         {
-            resultView.setText("The Music I'd Play For You is: A Day to Remember!!!");
+            resultView.setText(R.string.dayResults);
+            descView.setText(R.string.dayDesc);
         }//end first else if
         else if(music == 3)
         {
-            resultView.setText("The Music I'd Play For You is: Alicia Keys!!!");
+            resultView.setText(R.string.aliciaResults);
+            descView.setText(R.string.aliciaDesc);
         }//end second else if
         else if(music == 4)
         {
-            resultView.setText("The Music I'd Play For You is: Illinium!!!");
+            resultView.setText(R.string.illiniumResults);
+            descView.setText(R.string.illiniumDesc);
         }//end third else if
         else if(music == 5)
         {
-            resultView.setText("The Music I'd Play For You is: Friday Pilots Club!!!");
+            resultView.setText(R.string.fridayResults);
+            descView.setText(R.string.fridayDesc);
         }//end fourth else if
         else if(music == 6)
         {
-            resultView.setText("The Music I'd Play For You is: Issac Dunbar!!!");
+            resultView.setText(R.string.issacResults);
+            descView.setText(R.string.issacDesc);
         }//end fifth else if
     }//end onCreate
 
