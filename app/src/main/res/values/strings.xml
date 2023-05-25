@@ -216,9 +216,31 @@
     because you appreciate pop music that is absolutely danceable. Music brings you joy and you just
     want to dance and bop.</string>
 
+
     <string name="feetResults">The Movie I\'d Play For You is: 5 Feet Apart!!!</string>
-    <string name="feetDesc">This means that you </string>
+    <string name="feetDesc">This means that you are a hopeless romantic. Who is secretly loves movies
+    that pull at your heart strings and nothing captures this better than 5 Feet Apart/.</string>
 
     <string name="darkResults">The Movie I\'d Play For You is: Batman The Dark Knight Rises!!!</string>
-    <string name="darkDesc">This means that you</string>
+    <string name="darkDesc">This means that you are a person who watches a movies for action scenes
+    and cannot wait to see the knew movie. Nothing captures your attention more than action movies like
+    Batman The Dark Knight Rises.</string>
+
+    <string name="skyResults">The Movie I\'d Play For You is: Sky High!!!</string>
+    <string name="skyDesc">This means that you are the type of person who just watches movies for a
+    good story. Nothing captures your desire for a wonderful story like Sky High.</string>
+
+    <string name="aliensResults">The Movie I\'d Play For You is: Aliens in the Attic!!!</string>
+    <string name="aliensDesc">This means you are the type of person who watches movies for things that are not
+    of this world. Nothing captures your need for unwordly stories like Aliens in the Attic.</string>
+
+    <string name="frogResults">The Movie I\'d Play For You is: Princess and the Frog!!!</string>
+    <string name="frogDesc">This means that you are the type of person who watches movie for a happy
+    ending. In the end the boy gets the girl, and everyone lives happily every after, and nothin captures
+    this better than Princess and the Frog.</string>
+
+    <string name="wallflowerResults">The Movie I\'d Play For You is: The Perks of Being a Wallflower!!!</string>
+    <string name="wallflowerDesc">This means that you are the type of person who doesn\'t typically
+    like movies, unless they are cinematic masterpieces. Nothing captures the beauty of cinema and story
+    like The Perks of Being a Wallflower.</string>
 </resources>
