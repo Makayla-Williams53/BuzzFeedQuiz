@@ -163,4 +163,29 @@
     <string name="depends">Depends on the Musical</string>
 
     <string name="question9V3">How many movies do you watch in a week?</string>
+
+    <string name="redResults">Your Personality is: Red!!!</string>
+    <string name="redDesc">This means that you are an emotionally driven person.</string>
+
+    <string name="orangeResults">Your Personality is: Orange!!!</string>
+    <string name="orangeDesc">This means that you are </string>
+
+    <string name="yellowResults">Your Personality is: Yellow!!!</string>
+    <string name="yellowDesc">This means that you are </string>
+
+    <string name="greenResults">Your Personality is: Green!!!</string>
+    <string name="greenDesc">This means that you are </string>
+
+    <string name="blueResults">Your Personality is: Blue!!!</string>
+    <string name="blueDesc">This means that you are </string>
+
+    <string name="purpleResults">Your Personality is: Purple!!!</string>
+    <string name="purpleDesc">This means that you are</string>
+
+
+    <string name="feetResults">The Movie I\'d Play For You is: 5 Feet Apart!!!</string>
+    <string name="feetDesc">This means that you </string>
+
+    <string name="darkResults">The Movie I\'d Play For You is: Batman The Dark Knight Rises!!!</string>
+    <string name="darkDesc">This means that you</string>
 </resources>

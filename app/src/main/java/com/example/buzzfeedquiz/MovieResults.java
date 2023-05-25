@@ -23,14 +23,17 @@ public class MovieResults extends AppCompatActivity {
         movie = extras.getInt("results");
 
         TextView resultView = findViewById(R.id.resultsView);
+        TextView descView = findViewById(R.id.descView);
 
         if(movie == 1)
         {
-            resultView.setText("The Movie I'd Play For You is: 5 Feet Apart!!!");
+            resultView.setText(R.string.feetResults);
+            descView.setText(R.string.feetDesc);
         }//end if
         else if(movie == 2)
         {
-            resultView.setText("The Movie I'd Play For You is: Batman The Dark Knight Rises!!!");
+            resultView.setText(R.string.darkResults);
+            descView.setText(R.string.darkDesc);
         }//end first else if
         else if(movie == 3)
         {
