@@ -37,19 +37,23 @@ public class MovieResults extends AppCompatActivity {
         }//end first else if
         else if(movie == 3)
         {
-            resultView.setText("The Movie I'd Play For You is: Sky High!!!");
+            resultView.setText(R.string.skyResults);
+            descView.setText(R.string.skyDesc);
         }//end second else if
         else if(movie == 4)
         {
-            resultView.setText("The Movie I'd Play For You is: Aliens in the Attic!!!");
+            resultView.setText(R.string.aliensResults);
+            descView.setText(R.string.aliensDesc);
         }//end third else if
         else if(movie == 5)
         {
-            resultView.setText("The Movie I'd Play For You is: Princess and the Frog!!!");
+            resultView.setText(R.string.frogResults);
+            descView.setText(R.string.frogDesc);
         }//end fourth else if
         else if(movie == 6)
         {
-            resultView.setText("The Movie I'd Play For You is: Perks of Being a Wallflower!!!");
+            resultView.setText(R.string.wallflowerResults);
+            descView.setText(R.string.wallflowerDesc);
         }//end fifth else if
     }//end onCreate
 
