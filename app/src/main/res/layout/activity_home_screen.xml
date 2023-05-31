@@ -6,7 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/bg"
-    android:paddingBottom="50px"
+    android:paddingBottom="25dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:paddingTop="25dp"
     tools:context=".HomeScreen">
 
     <WebView
@@ -19,12 +22,14 @@
         android:id="@+id/colorOpt"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:backgroundTint="@color/button"
         android:layout_weight="1"
-        android:text="What color is your personality?"
-        android:textColor="@color/black"
+        android:backgroundTint="@color/button"
         android:onClick="select"
-        android:textSize="22dp" />
+        android:text="@string/quiz1"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="5sp" />
 
     <Button
         android:id="@+id/musicOpt"
@@ -32,10 +37,12 @@
         android:layout_height="0dp"
         android:backgroundTint="@color/button"
         android:layout_weight="1"
-        android:text="What music I would play for you?"
+        android:text="@string/quiz2"
         android:textColor="@color/black"
         android:onClick="select"
-        android:textSize="22dp" />
+        android:textSize="22sp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="5sp"/>
 
     <Button
         android:id="@+id/movieOpt"
@@ -43,10 +50,12 @@
         android:layout_height="0dp"
         android:backgroundTint="@color/button"
         android:layout_weight="1"
-        android:text="What movie I would play for you?"
+        android:text="@string/quiz3"
         android:textColor="@color/black"
         android:onClick="select"
-        android:textSize="22dp" />
+        android:textSize="22sp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="5sp"/>
 
     <Button
         android:id="@+id/startButton"
@@ -54,10 +63,12 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:backgroundTint="@color/button2"
-        android:text="START"
-        android:textColor="@color/black"
         android:onClick="start"
-        android:textSize="45dp" />
+        android:text="@string/start"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="5sp" />
 
 
 </LinearLayout>

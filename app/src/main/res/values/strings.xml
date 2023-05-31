@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">BuzzFeedQuiz</string>
+
+    <string name="quiz1">What color is your personality?</string>
+    <string name="quiz2">What music would I play for you?</string>
+    <string name="quiz3">What movie would I play for you?</string>
+    <string name="start">START</string>
+
     <string name="question1">What type of music do you listen to?</string>
     <string name="punk">Punk Rock</string>
     <string name="country">Country</string>
@@ -204,7 +210,7 @@
 
     <string name="illiniumResults">The Music I\'d Play For You is: Illinium!!!</string>
     <string name="illiniumDesc">The specific song that I would play for you is Fragments. This is because
-    you appreciate music for reasons deeper than lyrics, it's all about the instruments and the crazy
+    you appreciate music for reasons deeper than lyrics, it\'s all about the instruments and the crazy
     beat and drops.</string>
 
     <string name="issacResults">The Music I\'d Play For You is: Issac Dunbar!!!</string>
