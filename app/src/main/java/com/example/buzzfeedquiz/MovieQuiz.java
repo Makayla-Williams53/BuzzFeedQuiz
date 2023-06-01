@@ -46,12 +46,12 @@ public class MovieQuiz extends AppCompatActivity {
         Button button5 = findViewById(R.id.q1opt5);
         Button button6 = findViewById(R.id.q1opt6);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button4.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button5.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button6.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);

@@ -16,13 +16,13 @@
         android:id="@+id/titleWeb"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight=".3"/>
+        android:layout_weight=".4"/>
 
     <TextView
         android:id="@+id/resultsView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight=".5"
+        android:layout_weight=".6"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="40sp"/>

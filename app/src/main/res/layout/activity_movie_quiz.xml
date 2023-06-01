@@ -36,6 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
                 android:text="@string/question8"
+                android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="25sp"/>
 
@@ -66,17 +67,17 @@
 
                     <Button
                         android:id="@+id/q1opt2"
+                        style="?android:attr/buttonBarButtonStyle"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:backgroundTint="@color/button"
+                        android:onClick="select1"
                         android:text="@string/horror"
                         android:textColor="@color/black"
-                        android:onClick="select1"
                         android:textSize="20sp"
                         app:strokeColor="@color/white"
-                        app:strokeWidth="3sp"
-                        style="?android:attr/buttonBarButtonStyle" />
+                        app:strokeWidth="3sp" />
 
                 </TableRow>
 
@@ -139,7 +140,7 @@
                         android:text="@string/not"
                         android:textColor="@color/black"
                         android:onClick="select1"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         app:strokeColor="@color/white"
                         app:strokeWidth="3sp"
                         style="?android:attr/buttonBarButtonStyle"/>
@@ -154,6 +155,7 @@
                 android:layout_weight=".2"
                 android:text="@string/question2V3"
                 android:textColor="@color/white"
+                android:textAlignment="center"
                 android:textSize="25sp"/>
 
             <TableLayout
@@ -269,8 +271,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
                 android:text="@string/question3V3"
+                android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="25sp"/>
+                android:textSize="25sp" />
 
             <TableLayout
                 android:id="@+id/q3Table"
@@ -292,7 +295,7 @@
                         android:text="@string/make"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="14sp"
+                        android:textSize="12sp"
                         app:strokeColor="@color/white"
                         app:strokeWidth="3sp"
                         style="?android:attr/buttonBarButtonStyle"/>
@@ -306,7 +309,7 @@
                         android:text="@string/redbox"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="18sp"
+                        android:textSize="17sp"
                         app:strokeColor="@color/white"
                         app:strokeWidth="3sp"
                         style="?android:attr/buttonBarButtonStyle" />
@@ -339,7 +342,7 @@
                         android:text="@string/theaters"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         app:strokeColor="@color/white"
                         app:strokeWidth="3sp"
                         style="?android:attr/buttonBarButtonStyle"/>
@@ -358,7 +361,7 @@
                         android:text="@string/carpet"
                         android:textColor="@color/black"
                         android:onClick="select3"
-                        android:textSize="17sp"
+                        android:textSize="15sp"
                         app:strokeColor="@color/white"
                         app:strokeWidth="3sp"
                         style="?android:attr/buttonBarButtonStyle"/>
@@ -386,6 +389,7 @@
                 android:layout_weight=".2"
                 android:text="@string/question3V3"
                 android:textColor="@color/white"
+                android:textAlignment="center"
                 android:textSize="25sp"/>
 
             <TableLayout
@@ -502,6 +506,7 @@
                 android:layout_weight=".2"
                 android:text="@string/question5V3"
                 android:textColor="@color/white"
+                android:textAlignment="center"
                 android:textSize="25sp"/>
 
             <TableLayout
@@ -524,7 +529,7 @@
                         android:text="@string/house"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="19sp"
+                        android:textSize="17sp"
                         app:strokeColor="@color/white"
                         app:strokeWidth="3sp"
                         style="?android:attr/buttonBarButtonStyle"/>
@@ -557,7 +562,7 @@
                         android:text="@string/secret"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="20sp"
+                        android:textSize="19sp"
                         app:strokeColor="@color/white"
                         app:strokeWidth="3sp"
                         style="?android:attr/buttonBarButtonStyle"/>
@@ -571,7 +576,7 @@
                         android:text="@string/costume"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         app:strokeColor="@color/white"
                         app:strokeWidth="3sp"
                         style="?android:attr/buttonBarButtonStyle"/>
@@ -604,7 +609,7 @@
                         android:text="@string/forget"
                         android:textColor="@color/black"
                         android:onClick="select5"
-                        android:textSize="20sp"
+                        android:textSize="18sp"
                         app:strokeColor="@color/white"
                         app:strokeWidth="3sp"
                         style="?android:attr/buttonBarButtonStyle"/>
@@ -618,6 +623,7 @@
                 android:layout_weight=".2"
                 android:text="@string/question6V3"
                 android:textColor="@color/white"
+                android:textAlignment="center"
                 android:textSize="25sp"/>
 
             <TableLayout
@@ -734,6 +740,7 @@
                 android:layout_weight=".2"
                 android:text="@string/question7V3"
                 android:textColor="@color/white"
+                android:textAlignment="center"
                 android:textSize="25sp"/>
 
             <TableLayout
@@ -849,6 +856,7 @@
             android:layout_height="wrap_content"
             android:layout_weight=".2"
             android:text="@string/question8V3"
+                android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp"/>
 
