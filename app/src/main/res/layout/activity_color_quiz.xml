@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/bg"
-    android:paddingBottom="25dp"
+    android:paddingBottom="15dp"
     android:paddingStart="15dp"
     android:paddingEnd="15dp"
-    android:paddingTop="25dp"
+    android:paddingTop="10dp"
     tools:context=".ColorQuiz">
 
     <WebView
