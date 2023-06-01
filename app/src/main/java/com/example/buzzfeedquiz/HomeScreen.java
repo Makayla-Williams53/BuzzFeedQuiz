@@ -29,13 +29,13 @@ public class HomeScreen extends AppCompatActivity {
         Button button2 = findViewById(R.id.musicOpt);
         Button button3 = findViewById(R.id.movieOpt);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);
-        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        button.setBackgroundColor(Color.parseColor("#DAA7FF"));
 
         if(button == button1)
         {
