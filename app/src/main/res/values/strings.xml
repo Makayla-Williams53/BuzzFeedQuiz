@@ -166,7 +166,7 @@
     <string name="hate">HATE</string>
     <string name="idk">Don\'t Care</string>
     <string name="love">LOVE</string>
-    <string name="depends">Depends on the Musical</string>
+    <string name="depends">Depends</string>
 
     <string name="question9V3">How many movies do you watch in a week?</string>
 
@@ -249,4 +249,6 @@
     <string name="wallflowerDesc">This means that you are the type of person who doesn\'t typically
     like movies, unless they are cinematic masterpieces. Nothing captures the beauty of cinema and story
     like The Perks of Being a Wallflower.</string>
+
+    <string name="retake">RETAKE</string>
 </resources>

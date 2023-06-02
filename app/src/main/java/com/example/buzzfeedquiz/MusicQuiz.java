@@ -44,16 +44,16 @@ public class MusicQuiz extends AppCompatActivity
         Button button5 = findViewById(R.id.q1opt5);
         Button button6 = findViewById(R.id.q1opt6);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button4.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button5.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button6.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);
-        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        button.setBackgroundColor(Color.parseColor("#DAA7FF"));
         if(button == button1)
         {
             answer1 = 1;
@@ -86,13 +86,13 @@ public class MusicQuiz extends AppCompatActivity
         Button button2 = findViewById(R.id.q2opt2);
         Button button3 = findViewById(R.id.q2opt3);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);
-        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        button.setBackgroundColor(Color.parseColor("#DAA7FF"));
 
         if(button == button1)
         {
@@ -117,16 +117,16 @@ public class MusicQuiz extends AppCompatActivity
         Button button5 = findViewById(R.id.q3opt5);
         Button button6 = findViewById(R.id.q3opt6);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button4.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button5.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button6.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);
-        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        button.setBackgroundColor(Color.parseColor("#DAA7FF"));
         if(button == button1)
         {
             answer3 = 1;
@@ -162,16 +162,16 @@ public class MusicQuiz extends AppCompatActivity
         Button button5 = findViewById(R.id.q4opt5);
         Button button6 = findViewById(R.id.q4opt6);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button4.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button5.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button6.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);
-        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        button.setBackgroundColor(Color.parseColor("#DAA7FF"));
         if(button == button1)
         {
             answer4 = 1;
@@ -207,16 +207,16 @@ public class MusicQuiz extends AppCompatActivity
         Button button5 = findViewById(R.id.q5opt5);
         Button button6 = findViewById(R.id.q5opt6);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button4.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button5.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button6.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);
-        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        button.setBackgroundColor(Color.parseColor("#DAA7FF"));
         if(button == button1)
         {
             answer5 = 1;
@@ -252,16 +252,16 @@ public class MusicQuiz extends AppCompatActivity
         Button button5 = findViewById(R.id.q6opt5);
         Button button6 = findViewById(R.id.q6opt6);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button4.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button5.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button6.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);
-        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        button.setBackgroundColor(Color.parseColor("#DAA7FF"));
         if(button == button1)
         {
             answer6 = 1;
@@ -297,16 +297,16 @@ public class MusicQuiz extends AppCompatActivity
         Button button5 = findViewById(R.id.q7opt5);
         Button button6 = findViewById(R.id.q7opt6);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button4.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button5.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button6.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);
-        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        button.setBackgroundColor(Color.parseColor("#DAA7FF"));
         if(button == button1)
         {
             answer7 = 1;
@@ -342,16 +342,16 @@ public class MusicQuiz extends AppCompatActivity
         Button button5 = findViewById(R.id.q8opt5);
         Button button6 = findViewById(R.id.q8opt6);
 
-        button1.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button2.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button3.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button4.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button5.setBackgroundColor(Color.parseColor("#76E5FC"));
-        button6.setBackgroundColor(Color.parseColor("#76E5FC"));
+        button1.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button2.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button3.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button4.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button5.setBackgroundColor(Color.parseColor("#E7C6FF"));
+        button6.setBackgroundColor(Color.parseColor("#E7C6FF"));
 
         int id = view.getId();
         Button button = findViewById(id);
-        button.setBackgroundColor(Color.parseColor("#4BC0D9"));
+        button.setBackgroundColor(Color.parseColor("#DAA7FF"));
         if(button == button1)
         {
             answer8 = 1;
