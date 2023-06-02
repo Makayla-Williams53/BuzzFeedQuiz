@@ -24,19 +24,17 @@
         android:layout_height="0dp"
         android:layout_weight=".5"
         android:textAlignment="center"
-        android:text="Your Personality is: "
         android:textColor="@color/white"
-        android:textSize="40dp"/>
+        android:textSize="40sp"/>
 
     <TextView
         android:id="@+id/descView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Description of what the movie means. I will add this in later"
         android:textColor="@color/white"
         android:textAlignment="center"
-        android:textSize="25dp"
+        android:textSize="25sp"
         />
 
     <Button
@@ -44,11 +42,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".5"
-        android:text="Retake"
+        android:text="@string/retake"
         android:backgroundTint="@color/button"
         android:textColor="@color/black"
         android:onClick="retake"
-        android:textSize="45dp"
+        android:textSize="45sp"
         app:strokeColor="@color/white"
         app:strokeWidth="5sp"
         />
