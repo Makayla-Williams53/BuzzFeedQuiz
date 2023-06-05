@@ -6,6 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".SplashScreen"
-    android:background="@drawable/img">
+    android:background="@drawable/img_1">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
